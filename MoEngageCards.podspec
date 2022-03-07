@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source       = { 
-                    :git => 'https://github.com/moengage/MoEngage-iOS-SDK.git', 
+                    :git => 'https://github.com/moengage/MoEngage-iOS-Cards.git', 
                     :tag => 'cards-' + s.version.to_s 
                     }
                     
