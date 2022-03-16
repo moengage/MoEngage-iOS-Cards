@@ -3,10 +3,9 @@
 
 ## Change Log:
 
-### Version 3.0.0  *(11th February, 2022)*
+### Version 3.0.0  *(16th March, 2022)*
 -------------------------------------------
 * Renamed the module to MoEngageCards.
-* Added support for multiple App ID.
 
 ### Version 2.2.1  *(11th February, 2022)*
 -------------------------------------------

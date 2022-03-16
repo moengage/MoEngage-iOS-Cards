@@ -338,25 +338,127 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOCards * _N
 + (MOCards * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Method to Initialize Cards
+/// \param instanceID account identifier
+///
 - (void)intializeCardsForInstanceID:(NSString * _Nonnull)instanceID;
+/// Method to set the cards delegate
+/// \param delegate delegate object
+///
+/// \param appID optional account identifier
+///
 - (void)setCardsDelegateWithDelegate:(id <MOCardsDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to sync the cards
+/// \param appID account identifier
+///
+/// \param completionBlock completion block to be called after sync is performed
+///
 - (void)syncCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(BOOL))completionBlock;
+/// Method to fetch Cards data
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards data and account info.
+///
 - (void)getCardsDataForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOCardsData * _Nullable, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch Cards categories
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards categories and account info.
+///
 - (void)getCardsCategoriesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch Cards campaign
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards campaign info and account info.
+///
 - (void)getCardsForCategory:(NSString * _Nonnull)category forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MOCardCampaign *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
-- (void)shouldShowAllCategoryTabForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(BOOL))completionBlock;
+/// Method to fetch ShowAllTab status.
+/// \param appID account identifier
+///
+///
+/// returns:
+/// Bool indicating if showAllTab is set to true/false.
+- (void)isAllCategoryEnabledForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(BOOL))completionBlock;
+/// Method to track cards shown and update delivery counters accordingly.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardShown:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to mark a card as clicked and tracks an event for statistical purpose.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardClicked:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to mark a card as clicked and tracks an event for statistical purpose.
+/// \param card instance of MOCardCampaign
+///
+/// \param widgetID unique identifier for the widget that was clicked
+///
+/// \param appID account identifier.
+///
 - (void)cardClicked:(MOCardCampaign * _Nonnull)card withWidgetID:(NSInteger)widgetID forAppID:(NSString * _Nullable)appID;
+/// Method to mark tracking delivery of cards to inbox.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardDelivered:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to delete the cards
+/// \param cardsArr array of MOCardCampaign
+///
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block called once card is deleted.
+///
 - (void)deleteCards:(NSArray<MOCardCampaign *> * _Nonnull)cardsArr forAppID:(NSString * _Nullable)appID andCompletionBlock:(void (^ _Nonnull)(BOOL, MOAccountMeta * _Nullable))completionBlock;
 - (void)cardsViewControllerLoadedForAppID:(NSString * _Nullable)appID;
 - (void)cardsViewControllerDismissedForAppID:(NSString * _Nullable)appID;
+/// Method to fetch new cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with new cards count and account info.
+///
 - (void)getNewCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch unclicked cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with unclicked cards count and account info.
+///
 - (void)getUnclickedCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch clicked cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with clicked cards count and account info.
+///
 - (void)getClickedCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to present the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
 - (void)presentCardsViewControllerWithUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to push the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
 - (void)pushCardsViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to return the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
+///
+/// returns:
+/// returns the CardsController
 - (void)getCardsViewControllerWithUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOCardsListViewController * _Nullable))completionBlock;
 @end
 
@@ -779,25 +881,127 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOCards * _N
 + (MOCards * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Method to Initialize Cards
+/// \param instanceID account identifier
+///
 - (void)intializeCardsForInstanceID:(NSString * _Nonnull)instanceID;
+/// Method to set the cards delegate
+/// \param delegate delegate object
+///
+/// \param appID optional account identifier
+///
 - (void)setCardsDelegateWithDelegate:(id <MOCardsDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to sync the cards
+/// \param appID account identifier
+///
+/// \param completionBlock completion block to be called after sync is performed
+///
 - (void)syncCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(BOOL))completionBlock;
+/// Method to fetch Cards data
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards data and account info.
+///
 - (void)getCardsDataForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOCardsData * _Nullable, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch Cards categories
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards categories and account info.
+///
 - (void)getCardsCategoriesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<NSString *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch Cards campaign
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards campaign info and account info.
+///
 - (void)getCardsForCategory:(NSString * _Nonnull)category forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MOCardCampaign *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
-- (void)shouldShowAllCategoryTabForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(BOOL))completionBlock;
+/// Method to fetch ShowAllTab status.
+/// \param appID account identifier
+///
+///
+/// returns:
+/// Bool indicating if showAllTab is set to true/false.
+- (void)isAllCategoryEnabledForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(BOOL))completionBlock;
+/// Method to track cards shown and update delivery counters accordingly.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardShown:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to mark a card as clicked and tracks an event for statistical purpose.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardClicked:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to mark a card as clicked and tracks an event for statistical purpose.
+/// \param card instance of MOCardCampaign
+///
+/// \param widgetID unique identifier for the widget that was clicked
+///
+/// \param appID account identifier.
+///
 - (void)cardClicked:(MOCardCampaign * _Nonnull)card withWidgetID:(NSInteger)widgetID forAppID:(NSString * _Nullable)appID;
+/// Method to mark tracking delivery of cards to inbox.
+/// \param card instance of MOCardCampaign
+///
+/// \param appID account identifier.
+///
 - (void)cardDelivered:(MOCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to delete the cards
+/// \param cardsArr array of MOCardCampaign
+///
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block called once card is deleted.
+///
 - (void)deleteCards:(NSArray<MOCardCampaign *> * _Nonnull)cardsArr forAppID:(NSString * _Nullable)appID andCompletionBlock:(void (^ _Nonnull)(BOOL, MOAccountMeta * _Nullable))completionBlock;
 - (void)cardsViewControllerLoadedForAppID:(NSString * _Nullable)appID;
 - (void)cardsViewControllerDismissedForAppID:(NSString * _Nullable)appID;
+/// Method to fetch new cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with new cards count and account info.
+///
 - (void)getNewCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch unclicked cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with unclicked cards count and account info.
+///
 - (void)getUnclickedCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch clicked cards count
+/// \param appID account identifier.
+///
+/// \param completionBlock completion block with clicked cards count and account info.
+///
 - (void)getClickedCardsCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to present the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
 - (void)presentCardsViewControllerWithUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to push the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
 - (void)pushCardsViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to return the CardsController
+/// \param config Cards config instance
+///
+/// \param delegate optional cards delegate
+///
+/// \param appID account identifier.
+///
+///
+/// returns:
+/// returns the CardsController
 - (void)getCardsViewControllerWithUIConfiguration:(MOCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MOCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOCardsListViewController * _Nullable))completionBlock;
 @end
 
