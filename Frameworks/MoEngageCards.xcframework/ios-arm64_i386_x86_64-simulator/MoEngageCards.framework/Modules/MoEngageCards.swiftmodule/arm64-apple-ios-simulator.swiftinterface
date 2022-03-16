@@ -205,7 +205,7 @@ public enum MOCardWidgetType : Swift.String {
   @objc public func getCardsData(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cardsData: MoEngageCards.MOCardsData?, _ accountMeta: MoEngageCore.MOAccountMeta?) -> Swift.Void))
   @objc public func getCardsCategories(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ categories: Swift.Array<Swift.String>, _ accountMeta: MoEngageCore.MOAccountMeta?) -> ()))
   @objc public func getCards(forCategory category: Swift.String, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cards: Swift.Array<MoEngageCards.MOCardCampaign>, _ accountMeta: MoEngageCore.MOAccountMeta?) -> Swift.Void))
-  @objc public func shouldShowAllCategoryTab(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Bool) -> Swift.Void))
+  @objc public func isAllCategoryEnabled(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Bool) -> Swift.Void))
   @objc public func cardShown(_ card: MoEngageCards.MOCardCampaign, forAppID appID: Swift.String? = nil)
   @objc public func cardClicked(_ card: MoEngageCards.MOCardCampaign, forAppID appID: Swift.String? = nil)
   @objc public func cardClicked(_ card: MoEngageCards.MOCardCampaign, withWidgetID widgetID: Swift.Int, forAppID appID: Swift.String? = nil)
