@@ -11,10 +11,10 @@ let package = Package(
             targets: ["MoEngageCardsSPM","MoEngageCards"]),
     ],
     dependencies: [
-        .package(name: "MoEngage-iOS-SDK",url: "https://github.com/moengage/MoEngage-iOS-SDK.git", from: "8.0.0"),
+        .package(name: "MoEngage-iOS-SDK",url: "https://github.com/moengage/MoEngage-iOS-SDK.git", from: "8.1.0"),
     ],
     targets: [
-        .target(name: "MoEngageCardsSPM", dependencies: ["MoEngage-iOS-SDK"], path: "Sources/..",exclude: ["MoEngageCards.podspec", "README.md","./Frameworks/MoEngageCards.xcframework", "LICENSE","CHANGELOG.md"]),
+        .target(name: "MoEngageCardsSPM", dependencies: ["MoEngage-iOS-SDK"], path: "Sources/..",exclude: ["MoEngageCards.podspec", "README.md","./Frameworks/MoEngageCards.xcframework", "LICENSE","CHANGELOG.md", "Images/moe_logo_blue.png"]),
         .binaryTarget(name: "MoEngageCards",path: "./Frameworks/MoEngageCards.xcframework")
     ]
 )

@@ -10,7 +10,7 @@
 		</data>
 		<key>CHANGELOG.md</key>
 		<data>
-		Dr83VpYcJsUtZP3jw7mc1l1X6Wg=
+		jWlSQlCBicxoI4qScpgQMyWqqTY=
 		</data>
 		<key>Headers/MoEngageCards-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UdBik3kXhSIkTVc4iE8R68LuuQA=
+		YtUvpRfZdCXBI6dXMMLoF2LYHA0=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm.swiftmodule</key>
 		<data>
-		T070Y1IUwXWWrAbFY9iEEZVrGtk=
+		YpNg0+3KREfU8LymCUVEsaP5UTU=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PpFj+NvtPY1eI91/cBuuAnTAsUg=
+		bSIxGZbmUfhrbhXtA+wVvpYdEM8=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		PpFj+NvtPY1eI91/cBuuAnTAsUg=
+		bSIxGZbmUfhrbhXtA+wVvpYdEM8=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		T070Y1IUwXWWrAbFY9iEEZVrGtk=
+		YpNg0+3KREfU8LymCUVEsaP5UTU=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		T070Y1IUwXWWrAbFY9iEEZVrGtk=
+		YpNg0+3KREfU8LymCUVEsaP5UTU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -142,11 +142,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Dr83VpYcJsUtZP3jw7mc1l1X6Wg=
+			jWlSQlCBicxoI4qScpgQMyWqqTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/DjJQVydy4/FEtUdcwFC51lntsI+h/dzJEEisxTOj1I=
+			BxcW+EF5Ix20H5Um1W0mFdxxFF7XyqlTJ8mBt96dvlE=
 			</data>
 		</dict>
 		<key>Headers/MoEngageCards-Swift.h</key>
@@ -296,11 +296,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T070Y1IUwXWWrAbFY9iEEZVrGtk=
+			YpNg0+3KREfU8LymCUVEsaP5UTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtamqTc819hI7LXcSNkaCTZyuOxuWYRcl8Iu8GQW4Do=
+			TG15YHFnwv8QLzTkR2uvOwJgrZ4ajj02BEKB3bIWJ04=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -329,11 +329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PpFj+NvtPY1eI91/cBuuAnTAsUg=
+			bSIxGZbmUfhrbhXtA+wVvpYdEM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pf3K5ITrvdQ5H4n42hNFPiJrEP6MTArej3eTTPDYXP8=
+			dE4xsCRjHo9OtiOyxOeuTtA2jpucSNzVENVOBJKdn1U=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64.swiftdoc</key>
@@ -362,11 +362,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PpFj+NvtPY1eI91/cBuuAnTAsUg=
+			bSIxGZbmUfhrbhXtA+wVvpYdEM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pf3K5ITrvdQ5H4n42hNFPiJrEP6MTArej3eTTPDYXP8=
+			dE4xsCRjHo9OtiOyxOeuTtA2jpucSNzVENVOBJKdn1U=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -395,11 +395,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T070Y1IUwXWWrAbFY9iEEZVrGtk=
+			YpNg0+3KREfU8LymCUVEsaP5UTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtamqTc819hI7LXcSNkaCTZyuOxuWYRcl8Iu8GQW4Do=
+			TG15YHFnwv8QLzTkR2uvOwJgrZ4ajj02BEKB3bIWJ04=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/armv7.swiftdoc</key>
@@ -428,11 +428,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T070Y1IUwXWWrAbFY9iEEZVrGtk=
+			YpNg0+3KREfU8LymCUVEsaP5UTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtamqTc819hI7LXcSNkaCTZyuOxuWYRcl8Iu8GQW4Do=
+			TG15YHFnwv8QLzTkR2uvOwJgrZ4ajj02BEKB3bIWJ04=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
