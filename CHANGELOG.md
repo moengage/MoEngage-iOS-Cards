@@ -2,13 +2,11 @@
 =================================
 
 ## Change Log:
-### Version 3.1.0  *(30th March, 2022)*
+### Version 3.2.0  *(7th June, 2022)*
 -------------------------------------------
-* Updated the dependency to MoEngage-iOS-SDK 8.1.0.
-
-### Version 3.0.0  *(16th March, 2022)*
--------------------------------------------
+* Updated the dependency to MoEngage-iOS-SDK 8.2.0.
 * Renamed the module to MoEngageCards.
+* Provided  Swift Package manager support to install the SDK.
 
 ### Version 2.2.1  *(11th February, 2022)*
 -------------------------------------------

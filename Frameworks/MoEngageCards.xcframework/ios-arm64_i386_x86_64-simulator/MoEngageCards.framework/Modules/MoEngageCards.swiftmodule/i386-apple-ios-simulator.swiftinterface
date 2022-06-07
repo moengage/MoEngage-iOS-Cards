@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageCards
 import Foundation
 import MoEngageAnalytics
@@ -34,6 +34,14 @@ import _Concurrency
   }
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc required public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CardsDelegateHandler : MoEngageCore.CardsDelegate {
+  override public func logout(sdkInstance: MoEngageCore.SdkInstance, onCompleted: @escaping () -> ())
+  override public func updateModule(sdkInstance: MoEngageCore.SdkInstance)
+  override public func initializeCards(sdkInstance: MoEngageCore.SdkInstance)
+  override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.SdkInstance)
+  override public func applicationWillBecomeInActive(sdkInstance: MoEngageCore.SdkInstance)
   @objc deinit
 }
 public enum MOCardTemplateType : Swift.String {
@@ -196,9 +204,8 @@ public enum MOCardWidgetType : Swift.String {
   @objc optional func cardDeleted(withCardInfo card: MoEngageCards.MOCardCampaign, forAccountMeta accountMeta: MoEngageCore.MOAccountMeta)
   @objc optional func cardClicked(withCardInfo card: MoEngageCards.MOCardCampaign, andAction action: MoEngageCards.MOCardAction, forAccountMeta accountMeta: MoEngageCore.MOAccountMeta) -> Swift.Bool
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MOCards : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc public class MOCards : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageCards.MOCards
-  @objc public func intializeCards(forInstanceID instanceID: Swift.String)
   @objc public func setCardsDelegate(delegate: MoEngageCards.MOCardsDelegate, forAppID appID: Swift.String? = nil)
   @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> ())? = nil)
   public func getAllCardStatusDict(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (([[Swift.String : Any]]) -> Swift.Void))
@@ -219,6 +226,7 @@ public enum MOCardWidgetType : Swift.String {
   @objc public func presentCardsViewController(withUIConfiguration config: MoEngageCards.MOCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MOCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
   @objc public func pushCardsViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration config: MoEngageCards.MOCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MOCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
   @objc public func getCardsViewController(withUIConfiguration config: MoEngageCards.MOCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MOCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((MoEngageCards.MOCardsListViewController?) -> Swift.Void))
+  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class MOCardsNavigationBarStyle : ObjectiveC.NSObject {
