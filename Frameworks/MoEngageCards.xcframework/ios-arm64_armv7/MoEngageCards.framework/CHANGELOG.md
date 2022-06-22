@@ -2,11 +2,24 @@
 =================================
 
 ## Change Log:
+### Version 3.2.1  *(22nd June, 2022)*
+-------------------------------------------
+* Fixed the lldb issue when integrating MoEngage-iOS-SDK to Swift application.
+* BugFix - Handled the customization of `cardSelectionTintColor` and `navigationBarColor` when presenting and pushing the CardsController.
+
 ### Version 3.2.0  *(7th June, 2022)*
 -------------------------------------------
 * Updated the dependency to MoEngage-iOS-SDK 8.2.0.
 * Renamed the module to MoEngageCards.
 * Provided  Swift Package manager support to install the SDK.
+
+### Version 3.1.0  *(29th March, 2022)*
+-------------------------------------------
+* Updated the dependency to MoEngage-iOS-SDK 8.1.0.
+
+### Version 3.0.0  *(16th March, 2022)*
+-------------------------------------------
+* Renamed the module to MoEngageCards.
 
 ### Version 2.2.1  *(11th February, 2022)*
 -------------------------------------------
