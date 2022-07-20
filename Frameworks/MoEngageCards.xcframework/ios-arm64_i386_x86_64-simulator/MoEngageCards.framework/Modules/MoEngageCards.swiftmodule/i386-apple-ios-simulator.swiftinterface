@@ -174,7 +174,7 @@ public enum MOCardWidgetType : Swift.String {
   @objc public var category: Swift.String {
     get
   }
-  @objc public var createdDate: Foundation.Date {
+  @objc public var createdDate: Foundation.Date? {
     get
   }
   @objc public var updatedDate: Foundation.Date {
@@ -183,10 +183,10 @@ public enum MOCardWidgetType : Swift.String {
   @objc public var metaData: [Swift.String : Any] {
     get
   }
-  @objc public var templateData: MoEngageCards.MOCardTemplateData {
+  @objc public var templateData: MoEngageCards.MOCardTemplateData? {
     get
   }
-  @objc public var displayControl: MoEngageCards.MOCardDisplayControl {
+  @objc public var displayControl: MoEngageCards.MOCardDisplayControl? {
     get
   }
   @objc public var cardPayload: [Swift.String : Any]? {
