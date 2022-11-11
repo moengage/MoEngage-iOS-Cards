@@ -2,6 +2,10 @@
 =================================
 
 ## Change Log:
+### Version 3.4.2  *(11th November, 2022)*
+-------------------------------------------
+* Handled the "All" category in Cards UI to be hidden by default for landscape mode.
+
 ### Version 3.4.1  *(28th October, 2022)*
 -------------------------------------------
 * Handled the "All" category in Cards UI to be hidden by default.
