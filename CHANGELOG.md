@@ -2,6 +2,10 @@
 =================================
 
 ## Change Log:
+### Version 4.0.0 *(7th December, 2022)*
+-------------------------------------------
+* All the classes and modules are prefixed with `MoEngage`.
+
 ### Version 3.4.2  *(11th November, 2022)*
 -------------------------------------------
 * Handled the "All" category in Cards UI to be hidden by default for landscape mode.
