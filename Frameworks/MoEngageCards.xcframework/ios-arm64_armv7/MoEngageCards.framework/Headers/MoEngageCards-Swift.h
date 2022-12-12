@@ -236,6 +236,7 @@ SWIFT_CLASS("_TtC13MoEngageCards12MOCardAction")
 @class NSDate;
 @class MOCardTemplateData;
 @class MOCardDisplayControl;
+@class MoEngageCampaignState;
 
 SWIFT_CLASS("_TtC13MoEngageCards14MOCardCampaign")
 @interface MOCardCampaign : NSObject <NSCoding>
@@ -248,6 +249,7 @@ SWIFT_CLASS("_TtC13MoEngageCards14MOCardCampaign")
 @property (nonatomic, readonly, strong) MOCardTemplateData * _Nullable templateData;
 @property (nonatomic, readonly, strong) MOCardDisplayControl * _Nullable displayControl;
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable cardPayload;
+@property (nonatomic, readonly, strong) MoEngageCampaignState * _Nonnull cardState;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -536,6 +538,18 @@ SWIFT_PROTOCOL("_TtP13MoEngageCards29MOCardsViewControllerDelegate_")
 - (void)cardsViewControllerDismissedForAccountMeta:(MOAccountMeta * _Nonnull)accountMeta;
 - (void)cardDeletedWithCardInfo:(MOCardCampaign * _Nonnull)card forAccountMeta:(MOAccountMeta * _Nonnull)accountMeta;
 - (BOOL)cardClickedWithCardInfo:(MOCardCampaign * _Nonnull)card andAction:(MOCardAction * _Nonnull)action forAccountMeta:(MOAccountMeta * _Nonnull)accountMeta SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCampaignState")
+@interface MoEngageCampaignState : NSObject
+@property (nonatomic, readonly) int64_t showCountTotal;
+@property (nonatomic, readonly) BOOL isClicked;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstSeenTime;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstDeliveredTime;
+@property (nonatomic, readonly) int64_t showCountCurrentDevice;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -782,6 +796,7 @@ SWIFT_CLASS("_TtC13MoEngageCards12MOCardAction")
 @class NSDate;
 @class MOCardTemplateData;
 @class MOCardDisplayControl;
+@class MoEngageCampaignState;
 
 SWIFT_CLASS("_TtC13MoEngageCards14MOCardCampaign")
 @interface MOCardCampaign : NSObject <NSCoding>
@@ -794,6 +809,7 @@ SWIFT_CLASS("_TtC13MoEngageCards14MOCardCampaign")
 @property (nonatomic, readonly, strong) MOCardTemplateData * _Nullable templateData;
 @property (nonatomic, readonly, strong) MOCardDisplayControl * _Nullable displayControl;
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable cardPayload;
+@property (nonatomic, readonly, strong) MoEngageCampaignState * _Nonnull cardState;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1082,6 +1098,18 @@ SWIFT_PROTOCOL("_TtP13MoEngageCards29MOCardsViewControllerDelegate_")
 - (void)cardsViewControllerDismissedForAccountMeta:(MOAccountMeta * _Nonnull)accountMeta;
 - (void)cardDeletedWithCardInfo:(MOCardCampaign * _Nonnull)card forAccountMeta:(MOAccountMeta * _Nonnull)accountMeta;
 - (BOOL)cardClickedWithCardInfo:(MOCardCampaign * _Nonnull)card andAction:(MOCardAction * _Nonnull)action forAccountMeta:(MOAccountMeta * _Nonnull)accountMeta SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCampaignState")
+@interface MoEngageCampaignState : NSObject
+@property (nonatomic, readonly) int64_t showCountTotal;
+@property (nonatomic, readonly) BOOL isClicked;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstSeenTime;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstDeliveredTime;
+@property (nonatomic, readonly) int64_t showCountCurrentDevice;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

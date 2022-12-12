@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+### Version 3.5.0 *(12th December, 2022)*
+-------------------------------------------
+* BugFix - Handle sorting of self handled cards based on the pinned cards and updated time for cards.
+* BugFix - Cards clicked status is not being updated for self handled cards.
+
 ### Version 3.4.2  *(11th November, 2022)*
 -------------------------------------------
 * Handled the "All" category in Cards UI to be hidden by default for landscape mode.
