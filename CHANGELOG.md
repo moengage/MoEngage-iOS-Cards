@@ -2,6 +2,10 @@
 =================================
 
 ## Change Log:
+### Version 3.6.0 *(12th December, 2022)*
+-------------------------------------------
+* Added dSYMs files for debugging.
+
 ### Version 3.5.0 *(12th December, 2022)*
 -------------------------------------------
 * BugFix - Handle sorting of self handled cards based on the pinned cards and updated time for cards.
