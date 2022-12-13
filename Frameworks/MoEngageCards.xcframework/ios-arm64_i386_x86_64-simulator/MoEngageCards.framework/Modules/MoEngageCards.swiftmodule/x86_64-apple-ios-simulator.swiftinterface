@@ -8,6 +8,24 @@ import MoEngageCore
 import Swift
 import UIKit
 import _Concurrency
+@_hasMissingDesignatedInitializers @objc public class MoEngageCampaignState : ObjectiveC.NSObject {
+  @objc public var showCountTotal: Swift.Int64 {
+    get
+  }
+  @objc public var isClicked: Swift.Bool {
+    get
+  }
+  @objc public var firstSeenTime: Foundation.Date? {
+    get
+  }
+  @objc public var firstDeliveredTime: Foundation.Date? {
+    get
+  }
+  @objc public var showCountCurrentDevice: Swift.Int64 {
+    get
+  }
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc public class MoEngageCardDisplayControl : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var isPinned: Swift.Bool {
     get
@@ -190,6 +208,9 @@ public enum MoEngageCardWidgetType : Swift.String {
     get
   }
   @objc public var cardPayload: [Swift.String : Any]? {
+    get
+  }
+  @objc public var cardState: MoEngageCards.MoEngageCampaignState {
     get
   }
   @objc public func encode(with aCoder: Foundation.NSCoder)

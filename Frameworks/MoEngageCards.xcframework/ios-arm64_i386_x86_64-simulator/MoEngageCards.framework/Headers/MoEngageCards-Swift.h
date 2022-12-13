@@ -218,6 +218,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSDate;
+
+SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCampaignState")
+@interface MoEngageCampaignState : NSObject
+@property (nonatomic, readonly) int64_t showCountTotal;
+@property (nonatomic, readonly) BOOL isClicked;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstSeenTime;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstDeliveredTime;
+@property (nonatomic, readonly) int64_t showCountCurrentDevice;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 @class NSCoder;
 
@@ -233,7 +246,6 @@ SWIFT_CLASS("_TtC13MoEngageCards18MoEngageCardAction")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSDate;
 @class MoEngageCardTemplateData;
 @class MoEngageCardDisplayControl;
 
@@ -248,6 +260,7 @@ SWIFT_CLASS("_TtC13MoEngageCards20MoEngageCardCampaign")
 @property (nonatomic, readonly, strong) MoEngageCardTemplateData * _Nullable templateData;
 @property (nonatomic, readonly, strong) MoEngageCardDisplayControl * _Nullable displayControl;
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable cardPayload;
+@property (nonatomic, readonly, strong) MoEngageCampaignState * _Nonnull cardState;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -759,6 +772,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSDate;
+
+SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCampaignState")
+@interface MoEngageCampaignState : NSObject
+@property (nonatomic, readonly) int64_t showCountTotal;
+@property (nonatomic, readonly) BOOL isClicked;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstSeenTime;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstDeliveredTime;
+@property (nonatomic, readonly) int64_t showCountCurrentDevice;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 @class NSCoder;
 
@@ -774,7 +800,6 @@ SWIFT_CLASS("_TtC13MoEngageCards18MoEngageCardAction")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSDate;
 @class MoEngageCardTemplateData;
 @class MoEngageCardDisplayControl;
 
@@ -789,6 +814,7 @@ SWIFT_CLASS("_TtC13MoEngageCards20MoEngageCardCampaign")
 @property (nonatomic, readonly, strong) MoEngageCardTemplateData * _Nullable templateData;
 @property (nonatomic, readonly, strong) MoEngageCardDisplayControl * _Nullable displayControl;
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable cardPayload;
+@property (nonatomic, readonly, strong) MoEngageCampaignState * _Nonnull cardState;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1300,6 +1326,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSDate;
+
+SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCampaignState")
+@interface MoEngageCampaignState : NSObject
+@property (nonatomic, readonly) int64_t showCountTotal;
+@property (nonatomic, readonly) BOOL isClicked;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstSeenTime;
+@property (nonatomic, readonly, copy) NSDate * _Nullable firstDeliveredTime;
+@property (nonatomic, readonly) int64_t showCountCurrentDevice;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class NSString;
 @class NSCoder;
 
@@ -1315,7 +1354,6 @@ SWIFT_CLASS("_TtC13MoEngageCards18MoEngageCardAction")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class NSDate;
 @class MoEngageCardTemplateData;
 @class MoEngageCardDisplayControl;
 
@@ -1330,6 +1368,7 @@ SWIFT_CLASS("_TtC13MoEngageCards20MoEngageCardCampaign")
 @property (nonatomic, readonly, strong) MoEngageCardTemplateData * _Nullable templateData;
 @property (nonatomic, readonly, strong) MoEngageCardDisplayControl * _Nullable displayControl;
 @property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nullable cardPayload;
+@property (nonatomic, readonly, strong) MoEngageCampaignState * _Nonnull cardState;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
