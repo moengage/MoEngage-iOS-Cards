@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+### Version 4.1.0 *(13th December, 2022)*
+-------------------------------------------
+* Bugfix - Handle sorting of self handled cards based on the pinned cards and updated time for cards.
+* Bugfix - Cards clicked status is not being updated for self handled cards.
+
 ### Version 4.0.0 *(7th December, 2022)*
 -------------------------------------------
 * All the classes and modules are prefixed with `MoEngage`.
