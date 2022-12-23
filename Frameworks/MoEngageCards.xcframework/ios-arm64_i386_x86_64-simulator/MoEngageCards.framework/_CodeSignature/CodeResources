@@ -10,7 +10,7 @@
 		</data>
 		<key>CHANGELOG.md</key>
 		<data>
-		NBwxKvSJq9OvynHNyRG+2TRpG+8=
+		uLD6M2LX4d5yqi4CNDcIsnSph00=
 		</data>
 		<key>Headers/MoEngageCards-Swift.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GHVnvkZDld2XtlGRmyVbUD2wRt4=
+		Eoqcoi2FWM0n2Gb05ENhpL/WnBY=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ICnb+M8WkSlpjqSwH+2N0SvSatA=
+		XxrAaPLmNdDrQvZcSnycRpSwW9E=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sT/jcJfwkzjDxsShMk41Tu9uhkk=
+		BjbNuQiz6XL/XD4Ed3Jj/YkOzqs=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LWTWIMIxgwYaHaC44SVw4XwlnpU=
+		xVf/tovshvxxhudRXxPUxwd1Mu0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBwxKvSJq9OvynHNyRG+2TRpG+8=
+			uLD6M2LX4d5yqi4CNDcIsnSph00=
 			</data>
 			<key>hash2</key>
 			<data>
-			kXFUzzGLQJ/aWXa16+gl2GHiAceUlQcERkHwXKoGzYg=
+			d86nBg+4/mud/e1f4WOoiH19KdA/PpdyxXw57bmfJus=
 			</data>
 		</dict>
 		<key>Headers/MoEngageCards-Swift.h</key>
@@ -272,11 +272,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ICnb+M8WkSlpjqSwH+2N0SvSatA=
+			XxrAaPLmNdDrQvZcSnycRpSwW9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			edF7nIHaz9ogzKxbwB5oG56s9SEoilKLoAnzj4iV9Uw=
+			oNgwl8jYd0LJpk+iCYPiLjk8eu7/dhMm2Ki6t5VCWU0=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -305,11 +305,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sT/jcJfwkzjDxsShMk41Tu9uhkk=
+			BjbNuQiz6XL/XD4Ed3Jj/YkOzqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			a9rEPlJzEkv7aMPlnUKbbwZ22xNVhB+zgEp7op3m41k=
+			YjZrlsGxuuyJOczrbQ51KmmqSSncQ/bkSU1GOdeKfq8=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -338,11 +338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LWTWIMIxgwYaHaC44SVw4XwlnpU=
+			xVf/tovshvxxhudRXxPUxwd1Mu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Q/luve0Fz4dZyRROkdn2/UDEmlJX6vZdr2yFry9QkI=
+			ILVZV4cLjO+UNweybNio6C/GLlK9j8Klj119fvkO1jI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
