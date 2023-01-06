@@ -2,6 +2,10 @@
 =================================
 
 ## Change Log:
+### Version 4.2.1 *(6th January, 2023)*
+-------------------------------------------
+* Bugfix - Cards clicked status is not being updated for self handled cards.
+
 ### Version 4.2.0 *(28th December, 2022)*
 -------------------------------------------
 * Updated the dependency to MoEngage-iOS-SDK 9.2.0.
