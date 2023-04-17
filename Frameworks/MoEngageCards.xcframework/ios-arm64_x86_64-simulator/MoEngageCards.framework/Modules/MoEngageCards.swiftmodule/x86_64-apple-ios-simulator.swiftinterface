@@ -57,11 +57,12 @@ import _StringProcessing
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MoEngageCardsDelegateHandler : MoEngageCore.MoEngageCardsHandler {
-  override public func logout(sdkInstance: MoEngageCore.MoEngageSDKInstance, onCompleted: @escaping () -> ())
+  override public func logout(onUserReset: Swift.Bool = true, sdkInstance: MoEngageCore.MoEngageSDKInstance, onCompleted: @escaping () -> ())
   override public func updateModule(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func initializeCards(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func applicationWillBecomeInActive(sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func removeCardsDataFromStorage(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc deinit
 }
 public enum MoEngageCardTemplateType : Swift.String {
