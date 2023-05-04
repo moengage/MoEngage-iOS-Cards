@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageCards
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageCards
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
 import MoEngageAnalytics
@@ -62,6 +62,9 @@ import _StringProcessing
   override public func initializeCards(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func applicationWillBecomeInActive(sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func migrateDataFromPreviousVersions(sdkInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func migrateDataFromNoNEncryptionToEncryption(sdkInstance: MoEngageCore.MoEngageSDKInstance, currentSDKInstance: MoEngageCore.MoEngageSDKInstance)
+  override public func removeEncryptedFolder(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func removeCardsDataFromStorage(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc deinit
 }
