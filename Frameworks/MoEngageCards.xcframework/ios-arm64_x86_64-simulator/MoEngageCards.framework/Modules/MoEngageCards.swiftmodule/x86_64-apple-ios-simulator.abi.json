@@ -1468,6 +1468,237 @@
         "moduleName": "MoEngageCards"
       },
       {
+        "kind": "TypeDecl",
+        "name": "MoEngageCardData",
+        "printedName": "MoEngageCardData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accountMeta",
+            "printedName": "accountMeta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageAccountMeta",
+                "printedName": "MoEngageCore.MoEngageAccountMeta",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageAccountMeta"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData(py)accountMeta",
+            "mangledName": "$s13MoEngageCards0aB8CardDataC11accountMeta0aB4Core0ab7AccountG0Cvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageAccountMeta",
+                    "printedName": "MoEngageCore.MoEngageAccountMeta",
+                    "usr": "c:@M@MoEngageCore@objc(cs)MoEngageAccountMeta"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData(im)accountMeta",
+                "mangledName": "$s13MoEngageCards0aB8CardDataC11accountMeta0aB4Core0ab7AccountG0Cvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cards",
+            "printedName": "cards",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MoEngageCards.MoEngageCardCampaign]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageCardCampaign",
+                    "printedName": "MoEngageCards.MoEngageCardCampaign",
+                    "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardCampaign"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData(py)cards",
+            "mangledName": "$s13MoEngageCards0aB8CardDataC5cardsSayAA0abD8CampaignCGvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MoEngageCards.MoEngageCardCampaign]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageCardCampaign",
+                        "printedName": "MoEngageCards.MoEngageCardCampaign",
+                        "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardCampaign"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData(im)cards",
+                "mangledName": "$s13MoEngageCards0aB8CardDataC5cardsSayAA0abD8CampaignCGvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageCardData",
+                "printedName": "MoEngageCards.MoEngageCardData",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData(im)init",
+            "mangledName": "$s13MoEngageCards0aB8CardDataCACycfc",
+            "moduleName": "MoEngageCards",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData",
+        "mangledName": "$s13MoEngageCards0aB8CardDataC",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageCore",
+        "printedName": "MoEngageCore",
+        "declKind": "Import",
+        "moduleName": "MoEngageCards"
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -5461,6 +5692,79 @@
             "mangledName": "$s13MoEngageCards0aB8SDKCardsC04syncC08forAppID14withCompletionySSSg_ySbcSgtF",
             "moduleName": "MoEngageCards",
             "objc_name": "syncCardsForAppID:withCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchCards",
+            "printedName": "fetchCards(forAppID:withCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MoEngageCards.MoEngageCardData?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoEngageCards.MoEngageCardData?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MoEngageCards.MoEngageCardData?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoEngageCardData",
+                            "printedName": "MoEngageCards.MoEngageCardData",
+                            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardData"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)fetchCardsForAppID:withCompletion:",
+            "mangledName": "$s13MoEngageCards0aB8SDKCardsC05fetchC08forAppID14withCompletionySSSg_yAA0aB8CardDataCSgcSgtF",
+            "moduleName": "MoEngageCards",
+            "objc_name": "fetchCardsForAppID:withCompletion:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12403,1652 +12707,1659 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
       "kind": "IntegerLiteral",
       "offset": 299,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
       "kind": "BooleanLiteral",
       "offset": 355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
       "kind": "IntegerLiteral",
       "offset": 548,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 21,
       "value": "\"MoEngageCards.MoEngageCampaignState\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "BooleanLiteral",
       "offset": 315,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
       "offset": 212,
       "length": 26,
       "value": "\"MoEngageCards.MoEngageCardDisplayControl\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
       "offset": 3060,
       "length": 20,
       "value": "\"MoEngageCards.MoEngageCardShowTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsDelegateHandler.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsDelegateHandler.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsDataManager.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsDataManager.swift",
       "kind": "BooleanLiteral",
       "offset": 369,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardData.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 16,
+      "value": "\"MoEngageCards.MoEngageCardData\""
+    },
+    {
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 367,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 431,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 461,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "BooleanLiteral",
       "offset": 527,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatus.swift",
       "kind": "StringLiteral",
       "offset": 191,
       "length": 18,
       "value": "\"MoEngageCards.MoEngageCardStatus\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 7,
       "value": "\"basic\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 14,
       "value": "\"illustration\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 7,
       "value": "\"basic\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 301,
       "length": 14,
       "value": "\"illustration\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 335,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 13,
       "value": "\"richLanding\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 484,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 518,
       "length": 13,
       "value": "\"richLanding\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 554,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 8,
       "value": "\"button\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 6,
       "value": "\"text\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 781,
       "length": 8,
       "value": "\"button\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 9,
       "value": "\"unknown\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "Array",
       "offset": 1155,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 912,
       "length": 24,
       "value": "\"MoEngageCards.MoEngageCardTemplateData\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "Array",
       "offset": 3301,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "Array",
       "offset": 3372,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 2966,
       "length": 21,
       "value": "\"MoEngageCards.MoEngageCardContainer\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 6658,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "Array",
       "offset": 6729,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 6338,
       "length": 18,
       "value": "\"MoEngageCards.MoEngageCardWidget\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 9553,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 9722,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "Dictionary",
       "offset": 9786,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 9456,
       "length": 18,
       "value": "\"MoEngageCards.MoEngageCardAction\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardTemplateData.swift",
       "kind": "StringLiteral",
       "offset": 11844,
       "length": 17,
       "value": "\"MoEngageCards.MoEngageCardStyle\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 420,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 456,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
       "kind": "FloatLiteral",
       "offset": 492,
       "length": 5,
       "value": "400.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryTabCollectionView.swift",
       "kind": "Array",
       "offset": 604,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryCell.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCategoryCell.swift",
       "kind": "BooleanLiteral",
       "offset": 352,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 349,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 354,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 384,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 423,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageSyncInterval.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
       "kind": "Array",
       "offset": 914,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
       "kind": "Array",
       "offset": 966,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1028,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "Dictionary",
       "offset": 579,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "IntegerLiteral",
       "offset": 848,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "BooleanLiteral",
       "offset": 862,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "IntegerLiteral",
       "offset": 938,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "StringLiteral",
       "offset": 206,
       "length": 20,
       "value": "\"MoEngageCards.MoEngageCardCampaign\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 7,
       "value": "\"Cards\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 48,
       "value": "\"Cards\/\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 14,
       "value": "\"CardCampaign\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 425,
       "length": 12,
       "value": "\"CardStatus\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "IntegerLiteral",
       "offset": 305,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "IntegerLiteral",
       "offset": 460,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "Array",
       "offset": 582,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "Array",
       "offset": 634,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardStatusData\/MoEngageCardStatusData.swift",
       "kind": "Array",
       "offset": 686,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 513,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 688,
       "length": 7,
       "value": "\"Inbox\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1011,
       "length": 9,
       "value": "\"#424242\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1184,
       "length": 9,
       "value": "\"#424242\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1290,
       "length": 9,
       "value": "\"#3666EA\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 1374,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 1474,
       "length": 4,
       "value": "15.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1567,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1655,
       "length": 9,
       "value": "\"#525252\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1788,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1945,
       "length": 13,
       "value": "\"New updates\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2032,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2127,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2139,
       "length": 3,
       "value": "0.9"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2230,
       "length": 9,
       "value": "\"#414141\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2411,
       "length": 9,
       "value": "\"#333333\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2519,
       "length": 9,
       "value": "\"#424242\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2623,
       "length": 9,
       "value": "\"#616161\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2729,
       "length": 9,
       "value": "\"#9E9E9E\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2827,
       "length": 9,
       "value": "\"#416BFF\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3049,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3055,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3069,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3075,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3088,
       "length": 5,
       "value": "200.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3094,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3108,
       "length": 4,
       "value": "0.30"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 3202,
       "length": 9,
       "value": "\"#416BFF\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3290,
       "length": 4,
       "value": "17.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3384,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3483,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3574,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 3649,
       "length": 17,
       "value": "\"MMM dd, hh:mm a\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 3732,
       "length": 47,
       "value": "\"No notifications to show!\nCheck again later.\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 3860,
       "length": 9,
       "value": "\"#414141\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 3942,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 4117,
       "length": 13,
       "value": "\"placeholder\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 4267,
       "length": 5,
       "value": "\"pin\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 4409,
       "length": 12,
       "value": "\"emptyInbox\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 4582,
       "length": 8,
       "value": "\"Delete\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 4639,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 10,
       "value": "\"App Open\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 12,
       "value": "\"Inbox Load\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 17,
       "value": "\"Pull to Refresh\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 12,
       "value": "\"Force Sync\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 10,
       "value": "\"App Open\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 12,
       "value": "\"Inbox Load\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 347,
       "length": 17,
       "value": "\"Pull to Refresh\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 12,
       "value": "\"Force Sync\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
       "offset": 616,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
       "offset": 681,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
       "offset": 1383,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8214,
+      "offset": 8673,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12159,
+      "offset": 12618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
       "kind": "BooleanLiteral",
       "offset": 298,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
       "kind": "Array",
       "offset": 366,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardsData.swift",
       "kind": "Array",
       "offset": 437,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1248,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1302,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1344,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1481,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1659,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
       "offset": 1701,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
       "offset": 1762,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
       "offset": 1815,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
       "offset": 1875,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1993,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
       "offset": 28328,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
       "offset": 28377,
       "length": 11,
       "value": "\"tintColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
       "offset": 28421,
       "length": 12,
       "value": "\"titleColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 566,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardImageView.swift",
       "kind": "BooleanLiteral",
       "offset": 2381,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 14,
       "value": "\"show_all_tab\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 315,
       "length": 17,
       "value": "\"card_categories\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 7,
       "value": "\"cards\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 434,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 562,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 612,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 663,
       "length": 15,
       "value": "\"template_data\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 720,
       "length": 18,
       "value": "\"display_controls\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 875,
       "length": 8,
       "value": "\"is_pin\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 928,
       "length": 19,
       "value": "\"max_times_to_show\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 988,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1053,
       "length": 19,
       "value": "\"expire_after_seen\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 24,
       "value": "\"expire_after_delivered\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1194,
       "length": 11,
       "value": "\"show_time\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 23,
       "value": "\"CardsShowAllTabStatus\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1402,
       "length": 25,
       "value": "\"MoEngageCardsStoryboard\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1466,
       "length": 33,
       "value": "\"MoEngageCardsListViewController\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1573,
       "length": 14,
       "value": "\"show_all_tab\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1624,
       "length": 17,
       "value": "\"card_categories\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1669,
       "length": 7,
       "value": "\"cards\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1781,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1824,
       "length": 10,
       "value": "\"category\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1872,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1922,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 1973,
       "length": 15,
       "value": "\"template_data\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2030,
       "length": 18,
       "value": "\"display_controls\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2083,
       "length": 11,
       "value": "\"meta_data\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2132,
       "length": 14,
       "value": "\"card_payload\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2231,
       "length": 8,
       "value": "\"is_pin\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2283,
       "length": 19,
       "value": "\"max_times_to_show\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2339,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2396,
       "length": 19,
       "value": "\"expire_after_seen\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 24,
       "value": "\"expire_after_delivered\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2529,
       "length": 11,
       "value": "\"show_time\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2639,
       "length": 12,
       "value": "\"start_time\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2693,
       "length": 10,
       "value": "\"end_time\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2817,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2864,
       "length": 12,
       "value": "\"containers\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 2965,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3008,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3054,
       "length": 7,
       "value": "\"style\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3103,
       "length": 9,
       "value": "\"widgets\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3154,
       "length": 9,
       "value": "\"actions\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3270,
       "length": 9,
       "value": "\"bgColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3403,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3450,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3500,
       "length": 7,
       "value": "\"style\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3553,
       "length": 9,
       "value": "\"content\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3608,
       "length": 9,
       "value": "\"actions\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3743,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3792,
       "length": 6,
       "value": "\"type\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3842,
       "length": 7,
       "value": "\"value\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 3895,
       "length": 9,
       "value": "\"kvPairs\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4039,
       "length": 16,
       "value": "\"sync_intervals\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4097,
       "length": 16,
       "value": "\"lastUpdateTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4162,
       "length": 25,
       "value": "\"newUpdatesAvailableTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4238,
       "length": 26,
       "value": "\"lastUserActivitySyncTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4313,
       "length": 24,
       "value": "\"unsyncedDeletedCardIDs\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4391,
       "length": 29,
       "value": "\"unsyncedUserActivityCardIDs\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4462,
       "length": 17,
       "value": "\"cardStatusArray\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4568,
       "length": 10,
       "value": "\"app_open\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4617,
       "length": 11,
       "value": "\"app_inbox\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4672,
       "length": 17,
       "value": "\"pull_to_refresh\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4733,
       "length": 15,
       "value": "\"user_activity\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4844,
       "length": 8,
       "value": "\"cardID\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4892,
       "length": 11,
       "value": "\"isClicked\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4940,
       "length": 8,
       "value": "\"isSeen\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 4988,
       "length": 11,
       "value": "\"isDeleted\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5039,
       "length": 11,
       "value": "\"isNewCard\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5103,
       "length": 24,
       "value": "\"showCountCurrentDevice\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5172,
       "length": 16,
       "value": "\"showCountTotal\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5232,
       "length": 15,
       "value": "\"firstSeenTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5296,
       "length": 20,
       "value": "\"firstDeliveredTime\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageCards\/Utils\/MoEngageCardsConstant.swift",
       "kind": "StringLiteral",
       "offset": 5357,
       "length": 12,

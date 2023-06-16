@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+### Version 4.8.1 *(16th June 2023)*
+-------------------------------------------
+* Added cards sync API for self-handled cards
+* CrashFix - Fixed crash by returning the completion handler in main thread.
+
 ### Version 4.8.0 *(4th May 2023)*
 -------------------------------------------
 * Updated the deployment target to 11.0.

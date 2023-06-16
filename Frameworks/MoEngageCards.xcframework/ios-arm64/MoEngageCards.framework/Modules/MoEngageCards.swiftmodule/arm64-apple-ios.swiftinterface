@@ -68,6 +68,11 @@ import _StringProcessing
   override public func removeCardsDataFromStorage(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   @objc deinit
 }
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MoEngageCardData : ObjectiveC.NSObject {
+  @objc final public let accountMeta: MoEngageCore.MoEngageAccountMeta
+  @objc final public let cards: [MoEngageCards.MoEngageCardCampaign]
+  @objc deinit
+}
 public enum MoEngageCardTemplateType : Swift.String {
   case basic
   case illustration
@@ -232,6 +237,7 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc public static let sharedInstance: MoEngageCards.MoEngageSDKCards
   @objc public func setCardsDelegate(delegate: MoEngageCards.MoEngageCardsDelegate, forAppID appID: Swift.String? = nil)
   @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> ())? = nil)
+  @objc public func fetchCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardData?) -> Swift.Void)? = nil)
   public func getAllCardStatusDict(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (([[Swift.String : Any]]) -> Swift.Void))
   @objc public func getCardsData(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cardsData: MoEngageCards.MoEngageCardsData?, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getCardsCategories(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ categories: Swift.Array<Swift.String>, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> ()))
