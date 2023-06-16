@@ -10,11 +10,11 @@
 		</data>
 		<key>CHANGELOG.md</key>
 		<data>
-		FpYYMQmtpBzqft8gMyT+41NCEik=
+		ekI9jzNilJZrEN1AzRuVz7TPxS0=
 		</data>
 		<key>Headers/MoEngageCards-Swift.h</key>
 		<data>
-		ys9BBwWSiDCmk6h9bw/VWzO3d8c=
+		ZdJ03885LnP9xyEFg7sXMJlXPaM=
 		</data>
 		<key>Headers/MoEngageCards.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Optlbl5D5h8+5E7AKdVWELvS8eI=
+		u5b3qjFA1wJTox2woTjI88fB0xg=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -50,23 +50,23 @@
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		SNWwWybR6MGB99C2DeA9AQ6T5zA=
+		WfEtnYk8AqnGdwf2vYAYK5GF4WY=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Z9Mq9fSMCZtiLz7zHdtLC1T2ds4=
+		hlgo41+K/3lgurvWz5aOf67aiWo=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		pZugbgcRlB1UuZ7rsLMZmcsEVks=
+		I0la853KJDP7m6YP4OjngaWlOrk=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Z9Mq9fSMCZtiLz7zHdtLC1T2ds4=
+		hlgo41+K/3lgurvWz5aOf67aiWo=
 		</data>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		K5oAjDtuX2zPihHsPRt5LGLxtic=
+		CaURAHmM2+oKnZ48C4usYrlp9IY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3K0t/sptGIY++7hJ0vdfy+Ko1F+g2qqiilyZcUyD/iM=
+			1PJRd8e8ZrEgrqJRMQ7tWEEMPnr8S6TNFHt7RhJJN2w=
 			</data>
 		</dict>
 		<key>Headers/MoEngageCards-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3EJzk2sSvXRVyPEw8lHLBY25urd6dd+z2JRIMP9eNj0=
+			8IXZaRAy+WhLOHEPJLGq8205DPo8rRNE97ml8Y6kx1A=
 			</data>
 		</dict>
 		<key>Headers/MoEngageCards.h</key>
@@ -149,35 +149,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			j/VghQpyvhAq5/v1B+GU2ftBqSoHzddTswCmBrOS9tg=
+			7b3Faon1MGqNvrJnvtLNKffdruWw3cC+Bs+CiuhfN0g=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSnJJJgvnI1xn4RUyc0SBsGwPlyr6rOSrjc7dk/vO4s=
+			JdEMIwlv2yZLChPJkcqw+GFYhKyVrAU9+YQGLY3yXcA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAqXCYSnjbOxbbHfDYlV1Poli4eVV079RaEVeA+WrI8=
+			RTdaWTp/GLdj31QLqPTlQn2ZWjGzk0knHIkS38+EwIc=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSnJJJgvnI1xn4RUyc0SBsGwPlyr6rOSrjc7dk/vO4s=
+			JdEMIwlv2yZLChPJkcqw+GFYhKyVrAU9+YQGLY3yXcA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageCards.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Fa8QzxodfD/D4bK6/WrSDG616aFXfQQwEeamlJA1GM=
+			obIomY0RE0ySnskQS6eRXMzIyrZop8oymjsC7p4FvFo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -318,6 +318,16 @@ SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCardContainer")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class MoEngageAccountMeta;
+
+SWIFT_CLASS("_TtC13MoEngageCards16MoEngageCardData")
+@interface MoEngageCardData : NSObject
+@property (nonatomic, readonly, strong) MoEngageAccountMeta * _Nonnull accountMeta;
+@property (nonatomic, readonly, copy) NSArray<MoEngageCardCampaign *> * _Nonnull cards;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class MoEngageCardShowTime;
 
 SWIFT_CLASS("_TtC13MoEngageCards26MoEngageCardDisplayControl")
@@ -391,7 +401,6 @@ SWIFT_CLASS("_TtC13MoEngageCards17MoEngageCardsData")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class MoEngageAccountMeta;
 
 SWIFT_PROTOCOL("_TtP13MoEngageCards21MoEngageCardsDelegate_")
 @protocol MoEngageCardsDelegate
@@ -472,6 +481,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 /// \param completionBlock completion block to be called after sync is performed
 ///
 - (void)syncCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(BOOL))completionBlock;
+/// Method to fetch the latest cards after refreshing data with inbox sync interval.
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards data and account info
+///
+- (void)fetchCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(MoEngageCardData * _Nullable))completionBlock;
 /// Method to fetch Cards data
 /// \param appID account identifier
 ///
@@ -910,6 +925,16 @@ SWIFT_CLASS("_TtC13MoEngageCards21MoEngageCardContainer")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class MoEngageAccountMeta;
+
+SWIFT_CLASS("_TtC13MoEngageCards16MoEngageCardData")
+@interface MoEngageCardData : NSObject
+@property (nonatomic, readonly, strong) MoEngageAccountMeta * _Nonnull accountMeta;
+@property (nonatomic, readonly, copy) NSArray<MoEngageCardCampaign *> * _Nonnull cards;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 @class MoEngageCardShowTime;
 
 SWIFT_CLASS("_TtC13MoEngageCards26MoEngageCardDisplayControl")
@@ -983,7 +1008,6 @@ SWIFT_CLASS("_TtC13MoEngageCards17MoEngageCardsData")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class MoEngageAccountMeta;
 
 SWIFT_PROTOCOL("_TtP13MoEngageCards21MoEngageCardsDelegate_")
 @protocol MoEngageCardsDelegate
@@ -1064,6 +1088,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 /// \param completionBlock completion block to be called after sync is performed
 ///
 - (void)syncCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(BOOL))completionBlock;
+/// Method to fetch the latest cards after refreshing data with inbox sync interval.
+/// \param appID account identifier
+///
+/// \param completionBlock completion block with cards data and account info
+///
+- (void)fetchCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(MoEngageCardData * _Nullable))completionBlock;
 /// Method to fetch Cards data
 /// \param appID account identifier
 ///
