@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageCards
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -235,7 +235,7 @@ public enum MoEngageCardWidgetType : Swift.String {
 }
 @_inheritsConvenienceInitializers @objc public class MoEngageSDKCards : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageCards.MoEngageSDKCards
-  @objc public func setCardsDelegate(delegate: MoEngageCards.MoEngageCardsDelegate, forAppID appID: Swift.String? = nil)
+  @objc public func setCardsDelegate(delegate: any MoEngageCards.MoEngageCardsDelegate, forAppID appID: Swift.String? = nil)
   @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> ())? = nil)
   @objc public func fetchCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardData?) -> Swift.Void)? = nil)
   public func getAllCardStatusDict(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (([[Swift.String : Any]]) -> Swift.Void))
@@ -253,9 +253,9 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc public func getNewCardsCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ count: Swift.Int, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getUnclickedCardsCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ count: Swift.Int, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getClickedCardsCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ count: Swift.Int, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
-  @objc public func presentCardsViewController(withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MoEngageCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
-  @objc public func pushCardsViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MoEngageCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
-  @objc public func getCardsViewController(withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: MoEngageCards.MoEngageCardsViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((MoEngageCards.MoEngageCardsListViewController?) -> Swift.Void))
+  @objc public func presentCardsViewController(withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: (any MoEngageCards.MoEngageCardsViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil)
+  @objc public func pushCardsViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: (any MoEngageCards.MoEngageCardsViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil)
+  @objc public func getCardsViewController(withUIConfiguration config: MoEngageCards.MoEngageCardsUIConfiguration? = nil, withCardsViewControllerDelegate delegate: (any MoEngageCards.MoEngageCardsViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((MoEngageCards.MoEngageCardsListViewController?) -> Swift.Void))
   @objc override dynamic public init()
   @objc deinit
 }
@@ -333,7 +333,7 @@ public enum MoEngageCardWidgetType : Swift.String {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
