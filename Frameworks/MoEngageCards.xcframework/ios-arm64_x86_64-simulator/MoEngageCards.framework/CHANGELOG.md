@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+
+### Version 4.9.0 *(20th June 2023)*
+-------------------------------------------
+* iOS breakpoint issue fix by creating framework from Xcode 14.3.1
+
 ### Version 4.8.1 *(16th June 2023)*
 -------------------------------------------
 * Added cards sync API for self-handled cards
