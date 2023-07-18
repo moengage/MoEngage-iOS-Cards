@@ -582,6 +582,128 @@
           },
           {
             "kind": "Var",
+            "name": "expiryAfterSeenDuration",
+            "printedName": "expiryAfterSeenDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MoEngageCards0aB18CardDisplayControlC23expiryAfterSeenDurationSdSgvp",
+            "mangledName": "$s13MoEngageCards0aB18CardDisplayControlC23expiryAfterSeenDurationSdSgvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0aB18CardDisplayControlC23expiryAfterSeenDurationSdSgvg",
+                "mangledName": "$s13MoEngageCards0aB18CardDisplayControlC23expiryAfterSeenDurationSdSgvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "expiryAfterDeliveredDuration",
+            "printedName": "expiryAfterDeliveredDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MoEngageCards0aB18CardDisplayControlC28expiryAfterDeliveredDurationSdSgvp",
+            "mangledName": "$s13MoEngageCards0aB18CardDisplayControlC28expiryAfterDeliveredDurationSdSgvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0aB18CardDisplayControlC28expiryAfterDeliveredDurationSdSgvg",
+                "mangledName": "$s13MoEngageCards0aB18CardDisplayControlC28expiryAfterDeliveredDurationSdSgvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "showTime",
             "printedName": "showTime",
             "children": [
@@ -995,6 +1117,224 @@
         "moduleName": "MoEngageCards",
         "declAttributes": [
           "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageCore",
+        "printedName": "MoEngageCore",
+        "declKind": "Import",
+        "moduleName": "MoEngageCards"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngageCardSyncCompleteData",
+        "printedName": "MoEngageCardSyncCompleteData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "accountMeta",
+            "printedName": "accountMeta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageAccountMeta",
+                "printedName": "MoEngageCore.MoEngageAccountMeta",
+                "usr": "c:@M@MoEngageCore@objc(cs)MoEngageAccountMeta"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData(py)accountMeta",
+            "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataC11accountMeta0aB4Core0ab7AccountI0Cvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageAccountMeta",
+                    "printedName": "MoEngageCore.MoEngageAccountMeta",
+                    "usr": "c:@M@MoEngageCore@objc(cs)MoEngageAccountMeta"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData(im)accountMeta",
+                "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataC11accountMeta0aB4Core0ab7AccountI0Cvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasUpdates",
+            "printedName": "hasUpdates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData(py)hasUpdates",
+            "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataC10hasUpdatesSbvp",
+            "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData(im)hasUpdates",
+                "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataC10hasUpdatesSbvg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageCardSyncCompleteData",
+                "printedName": "MoEngageCards.MoEngageCardSyncCompleteData",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData(im)init",
+            "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataCACycfc",
+            "moduleName": "MoEngageCards",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData",
+        "mangledName": "$s13MoEngageCards0aB20CardSyncCompleteDataC",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -5701,6 +6041,225 @@
           },
           {
             "kind": "Function",
+            "name": "onAppOpenSync",
+            "printedName": "onAppOpenSync(forAppID:withCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MoEngageCards.MoEngageCardSyncCompleteData?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoEngageCards.MoEngageCardSyncCompleteData?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MoEngageCards.MoEngageCardSyncCompleteData?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoEngageCardSyncCompleteData",
+                            "printedName": "MoEngageCards.MoEngageCardSyncCompleteData",
+                            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)onAppOpenSyncForAppID:withCompletion:",
+            "mangledName": "$s13MoEngageCards0aB8SDKCardsC13onAppOpenSync03forF2ID14withCompletionySSSg_yAA0ab4CardH12CompleteDataCSgcSgtF",
+            "moduleName": "MoEngageCards",
+            "objc_name": "onAppOpenSyncForAppID:withCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onCardSectionLoaded",
+            "printedName": "onCardSectionLoaded(forAppID:withCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MoEngageCards.MoEngageCardSyncCompleteData?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoEngageCards.MoEngageCardSyncCompleteData?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MoEngageCards.MoEngageCardSyncCompleteData?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoEngageCardSyncCompleteData",
+                            "printedName": "MoEngageCards.MoEngageCardSyncCompleteData",
+                            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)onCardSectionLoadedForAppID:withCompletion:",
+            "mangledName": "$s13MoEngageCards0aB8SDKCardsC19onCardSectionLoaded8forAppID14withCompletionySSSg_yAA0abF16SyncCompleteDataCSgcSgtF",
+            "moduleName": "MoEngageCards",
+            "objc_name": "onCardSectionLoadedForAppID:withCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "refreshCards",
+            "printedName": "refreshCards(forAppID:withCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MoEngageCards.MoEngageCardSyncCompleteData?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MoEngageCards.MoEngageCardSyncCompleteData?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MoEngageCards.MoEngageCardSyncCompleteData?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MoEngageCardSyncCompleteData",
+                            "printedName": "MoEngageCards.MoEngageCardSyncCompleteData",
+                            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)refreshCardsForAppID:withCompletion:",
+            "mangledName": "$s13MoEngageCards0aB8SDKCardsC07refreshC08forAppID14withCompletionySSSg_yAA0aB20CardSyncCompleteDataCSgcSgtF",
+            "moduleName": "MoEngageCards",
+            "objc_name": "refreshCardsForAppID:withCompletion:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "fetchCards",
             "printedName": "fetchCards(forAppID:withCompletion:)",
             "children": [
@@ -6335,6 +6894,44 @@
             "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)cardDelivered:forAppID:",
             "mangledName": "$s13MoEngageCards0aB8SDKCardsC13cardDelivered_8forAppIDyAA0aB12CardCampaignC_SSSgtF",
             "moduleName": "MoEngageCards",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cardDelivered",
+            "printedName": "cardDelivered(forAppID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageCards@objc(cs)MoEngageSDKCards(im)cardDeliveredForAppID:",
+            "mangledName": "$s13MoEngageCards0aB8SDKCardsC13cardDelivered8forAppIDySSSg_tF",
+            "moduleName": "MoEngageCards",
+            "objc_name": "cardDeliveredForAppID:",
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -11636,6 +12233,517 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "MoEngageHybridSDKCards",
+        "printedName": "MoEngageHybridSDKCards",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hybridCardsDelegate",
+            "printedName": "hybridCardsDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageHybridSDKCardsDelegate",
+                    "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate",
+                    "usr": "s:13MoEngageCards0aB22HybridSDKCardsDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvpZ",
+            "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvpZ",
+            "moduleName": "MoEngageCards",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageHybridSDKCardsDelegate",
+                        "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate",
+                        "usr": "s:13MoEngageCards0aB22HybridSDKCardsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvgZ",
+                "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvgZ",
+                "moduleName": "MoEngageCards",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageHybridSDKCardsDelegate",
+                        "printedName": "MoEngageCards.MoEngageHybridSDKCardsDelegate",
+                        "usr": "s:13MoEngageCards0aB22HybridSDKCardsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvsZ",
+                "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvsZ",
+                "moduleName": "MoEngageCards",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvMZ",
+                "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO06hybridC8DelegateAA0abdeG0_pSgvMZ",
+                "moduleName": "MoEngageCards",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "buildCardCampaign",
+            "printedName": "buildCardCampaign(fromHybridData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageCardCampaign",
+                "printedName": "MoEngageCards.MoEngageCardCampaign",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardCampaign"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoEngageCards0aB14HybridSDKCardsO17buildCardCampaign04fromD4DataAA0abgH0CSDySSypG_tKFZ",
+            "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO17buildCardCampaign04fromD4DataAA0abgH0CSDySSypG_tKFZ",
+            "moduleName": "MoEngageCards",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertCardCampaignToJsonData",
+            "printedName": "convertCardCampaignToJsonData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageCardCampaign",
+                "printedName": "MoEngageCards.MoEngageCardCampaign",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardCampaign"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoEngageCards0aB14HybridSDKCardsO29convertCardCampaignToJsonDataySDySSypGAA0abgH0CFZ",
+            "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO29convertCardCampaignToJsonDataySDySSypGAA0abgH0CFZ",
+            "moduleName": "MoEngageCards",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13MoEngageCards0aB14HybridSDKCardsO",
+        "mangledName": "$s13MoEngageCards0aB14HybridSDKCardsO",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngageHybridCardsSyncType",
+        "printedName": "MoEngageHybridCardsSyncType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appOpen",
+            "printedName": "appOpen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoEngageCards.MoEngageHybridCardsSyncType.Type) -> MoEngageCards.MoEngageHybridCardsSyncType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageHybridCardsSyncType",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                    "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageHybridCardsSyncType",
+                        "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                        "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO7appOpenyA2CmF",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO7appOpenyA2CmF",
+            "moduleName": "MoEngageCards"
+          },
+          {
+            "kind": "Var",
+            "name": "inboxLoad",
+            "printedName": "inboxLoad",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoEngageCards.MoEngageHybridCardsSyncType.Type) -> MoEngageCards.MoEngageHybridCardsSyncType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageHybridCardsSyncType",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                    "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageHybridCardsSyncType",
+                        "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                        "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO9inboxLoadyA2CmF",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO9inboxLoadyA2CmF",
+            "moduleName": "MoEngageCards"
+          },
+          {
+            "kind": "Var",
+            "name": "pullToRefresh",
+            "printedName": "pullToRefresh",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MoEngageCards.MoEngageHybridCardsSyncType.Type) -> MoEngageCards.MoEngageHybridCardsSyncType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MoEngageHybridCardsSyncType",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                    "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MoEngageCards.MoEngageHybridCardsSyncType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MoEngageHybridCardsSyncType",
+                        "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                        "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO13pullToRefreshyA2CmF",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO13pullToRefreshyA2CmF",
+            "moduleName": "MoEngageCards"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageHybridCardsSyncType",
+                "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageHybridCardsSyncType",
+                "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "MoEngageCards",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO9hashValueSivp",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO9hashValueSivp",
+            "moduleName": "MoEngageCards",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO9hashValueSivg",
+                "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO9hashValueSivg",
+                "moduleName": "MoEngageCards",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "MoEngageCards",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO",
+        "mangledName": "$s13MoEngageCards0ab6HybridC8SyncTypeO",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MoEngageHybridSDKCardsDelegate",
+        "printedName": "MoEngageHybridSDKCardsDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didSyncCards",
+            "printedName": "didSyncCards(forEvent:recievedUpdate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageHybridCardsSyncType",
+                "printedName": "MoEngageCards.MoEngageHybridCardsSyncType",
+                "usr": "s:13MoEngageCards0ab6HybridC8SyncTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageCardSyncCompleteData",
+                "printedName": "MoEngageCards.MoEngageCardSyncCompleteData",
+                "usr": "c:@M@MoEngageCards@objc(cs)MoEngageCardSyncCompleteData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MoEngageCards0aB22HybridSDKCardsDelegateP07didSyncC08forEvent14recievedUpdateyAA0abdcH4TypeO_AA0ab4CardH12CompleteDataCtF",
+            "mangledName": "$s13MoEngageCards0aB22HybridSDKCardsDelegateP07didSyncC08forEvent14recievedUpdateyAA0abdcH4TypeO_AA0ab4CardH12CompleteDataCtF",
+            "moduleName": "MoEngageCards",
+            "genericSig": "<τ_0_0 where τ_0_0 : MoEngageCards.MoEngageHybridSDKCardsDelegate>",
+            "sugared_genericSig": "<Self where Self : MoEngageCards.MoEngageHybridSDKCardsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13MoEngageCards0aB22HybridSDKCardsDelegateP",
+        "mangledName": "$s13MoEngageCards0aB22HybridSDKCardsDelegateP",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageCards",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "MoEngageCore",
         "printedName": "MoEngageCore",
@@ -12730,6 +13838,41 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
       "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 16,
+      "value": "\"totalShowCount\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 11,
+      "value": "\"isClicked\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 1961,
+      "length": 11,
+      "value": "\"firstSeen\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 2013,
+      "length": 15,
+      "value": "\"firstReceived\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 16,
+      "value": "\"localShowCount\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCampaignState.swift",
+      "kind": "StringLiteral",
       "offset": 205,
       "length": 21,
       "value": "\"MoEngageCards.MoEngageCampaignState\""
@@ -12751,133 +13894,133 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 748,
       "length": 8,
       "value": "\"is_pin\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 870,
       "length": 19,
       "value": "\"max_times_to_show\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 985,
+      "offset": 1009,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1074,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 1264,
       "length": 19,
       "value": "\"expire_after_seen\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1415,
+      "offset": 1439,
       "length": 24,
       "value": "\"expire_after_delivered\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1594,
+      "offset": 1618,
       "length": 11,
       "value": "\"show_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1837,
+      "offset": 1861,
       "length": 8,
       "value": "\"is_pin\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 1893,
+      "offset": 1917,
       "length": 19,
       "value": "\"max_times_to_show\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2000,
+      "offset": 2024,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2135,
+      "offset": 2159,
       "length": 19,
       "value": "\"expire_after_seen\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2291,
+      "offset": 2315,
       "length": 24,
       "value": "\"expire_after_delivered\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2416,
+      "offset": 2440,
       "length": 11,
       "value": "\"show_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2559,
+      "offset": 2583,
       "length": 8,
       "value": "\"is_pin\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2628,
+      "offset": 2652,
       "length": 19,
       "value": "\"max_times_to_show\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2705,
+      "offset": 2729,
       "length": 11,
       "value": "\"expire_at\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2820,
       "length": 19,
       "value": "\"expire_after_seen\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2891,
+      "offset": 2915,
       "length": 24,
       "value": "\"expire_after_delivered\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 2972,
+      "offset": 2996,
       "length": 11,
       "value": "\"show_time\""
     },
@@ -12891,51 +14034,58 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3309,
+      "offset": 3333,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3363,
+      "offset": 3387,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3613,
+      "offset": 3637,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3666,
+      "offset": 3690,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 3822,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3880,
+      "offset": 3904,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardDisplayControl.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3084,
       "length": 20,
       "value": "\"MoEngageCards.MoEngageCardShowTime\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageSyncCompleteData.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 28,
+      "value": "\"MoEngageCards.MoEngageCardSyncCompleteData\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsDelegateHandler.swift",
@@ -15817,98 +16967,98 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4084,
+      "offset": 4252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4111,
+      "offset": 4279,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4138,
+      "offset": 4306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4165,
+      "offset": 4333,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4272,
+      "offset": 4440,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4278,
+      "offset": 4446,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4291,
+      "offset": 4459,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4297,
+      "offset": 4465,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4309,
+      "offset": 4477,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 4315,
+      "offset": 4483,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "StringLiteral",
-      "offset": 4357,
+      "offset": 4525,
       "length": 7,
       "value": "\"#%06x\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 15047,
+      "offset": 15215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 15136,
+      "offset": 15304,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/Internal\/MoEngageCardsParser.swift",
       "kind": "Array",
-      "offset": 15387,
+      "offset": 15555,
       "length": 2,
       "value": "[]"
     },
@@ -16167,6 +17317,90 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
       "kind": "StringLiteral",
+      "offset": 6844,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7140,
+      "length": 9,
+      "value": "\"card_id\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7180,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7225,
+      "length": 15,
+      "value": "\"template_data\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7273,
+      "length": 11,
+      "value": "\"meta_data\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7318,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7364,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7407,
+      "length": 10,
+      "value": "\"metaData\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7454,
+      "length": 18,
+      "value": "\"display_controls\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7504,
+      "length": 15,
+      "value": "\"campaignState\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
+      "offset": 7557,
+      "length": 17,
+      "value": "\"campaignPayload\""
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/ModelObjects\/CardsData\/MoEngageCardCampaign.swift",
+      "kind": "StringLiteral",
       "offset": 206,
       "length": 20,
       "value": "\"MoEngageCards.MoEngageCardCampaign\""
@@ -16243,78 +17477,85 @@
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2623,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "Array",
-      "offset": 5105,
+      "offset": 7268,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "Array",
-      "offset": 5879,
+      "offset": 8042,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 6538,
+      "offset": 8701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 9561,
+      "offset": 12097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 11024,
+      "offset": 13560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "IntegerLiteral",
-      "offset": 12549,
+      "offset": 15085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "IntegerLiteral",
-      "offset": 13349,
+      "offset": 15885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "IntegerLiteral",
-      "offset": 14141,
+      "offset": 16677,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 14947,
+      "offset": 17483,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 15205,
+      "offset": 17741,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageSDKCards.swift",
       "kind": "BooleanLiteral",
-      "offset": 16078,
+      "offset": 18614,
       "length": 4,
       "value": "true"
     },
@@ -17098,882 +18339,917 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2623,
+      "offset": 2949,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3016,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3213,
+      "offset": 3646,
       "length": 31,
       "value": "\"Cards Fetch Request - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3253,
+      "offset": 3686,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3312,
+      "offset": 3745,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3546,
+      "offset": 3979,
       "length": 113,
       "value": "\"shouldFetchCards \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3585,
+      "offset": 4018,
       "length": 5,
       "value": "\" Check: \n lastUpdated : \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3628,
+      "offset": 4061,
       "length": 7,
       "value": "\" current time : \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3658,
+      "offset": 4091,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3668,
+      "offset": 4101,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 4170,
       "length": 165,
       "value": "\"Sync Intervals: App Open(\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3798,
+      "offset": 4231,
       "length": 1,
       "value": "\") Inbox( \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3843,
+      "offset": 4276,
       "length": 1,
       "value": "\") PullToRefresh(\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 4333,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 3911,
+      "offset": 4344,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3995,
+      "offset": 4428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4248,
+      "offset": 4681,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4486,
+      "offset": 4919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4741,
+      "offset": 5174,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4851,
+      "offset": 5284,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4885,
+      "offset": 5318,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5609,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 4982,
+      "offset": 5650,
       "length": 53,
       "value": "\"shouldFetchCards \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 5689,
       "length": 5,
       "value": "\" Check failed\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5044,
+      "offset": 5712,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5410,
+      "offset": 6156,
       "length": 36,
       "value": "\"Cards FetchApi already in progress\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5455,
+      "offset": 6201,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5528,
+      "offset": 6274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5535,
+      "offset": 6281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5637,
+      "offset": 6523,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6626,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 6664,
       "length": 31,
       "value": "\"Cards Sync request initiated:\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 5715,
+      "offset": 6704,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6162,
+      "offset": 7151,
       "length": 33,
       "value": "\"Fetch Response: \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6194,
+      "offset": 7183,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6204,
+      "offset": 7193,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6300,
+      "offset": 7289,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6399,
+      "offset": 7388,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6465,
+      "offset": 7454,
       "length": 7,
       "value": "\"cards\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6515,
+      "offset": 7504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6566,
+      "offset": 7555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 6638,
+      "offset": 7627,
       "length": 18,
       "value": "\"deleted_card_ids\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6693,
+      "offset": 7682,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6744,
+      "offset": 7733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7048,
+      "offset": 8037,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7442,
+      "offset": 8655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7449,
+      "offset": 8662,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 7585,
+      "offset": 9065,
       "length": 20,
       "value": "\"Fetch failed‼️\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 7614,
+      "offset": 9094,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7742,
+      "offset": 9222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7749,
+      "offset": 9229,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7862,
+      "offset": 9487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8025,
+      "offset": 9764,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8099,
+      "offset": 9838,
       "length": 11,
       "value": "\"unique_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8217,
+      "offset": 9956,
       "length": 11,
       "value": "\"platforms\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 8232,
+      "offset": 9971,
       "length": 7,
       "value": "[\"ios\"]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8260,
+      "offset": 9999,
       "length": 19,
       "value": "\"last_updated_time\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8356,
+      "offset": 10095,
       "length": 20,
       "value": "\"prev_sync_card_ids\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8441,
+      "offset": 10180,
       "length": 14,
       "value": "\"query_params\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8673,
+      "offset": 10412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8790,
+      "offset": 10529,
       "length": 44,
       "value": "\"Cards Sync User Activity Request - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 8843,
+      "offset": 10582,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9122,
+      "offset": 10861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 11106,
       "length": 39,
       "value": "\"Cards User Activity Sync request made\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 9415,
+      "offset": 11154,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 9857,
+      "offset": 11596,
       "length": 68,
       "value": "\"Cards User Activity Response - \""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 9924,
+      "offset": 11663,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 9934,
+      "offset": 11673,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 10398,
+      "offset": 12137,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11062,
+      "offset": 12801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11092,
+      "offset": 12831,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 11266,
+      "offset": 13005,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 11340,
+      "offset": 13079,
       "length": 11,
       "value": "\"unique_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 11494,
+      "offset": 13233,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Dictionary",
-      "offset": 11741,
+      "offset": 13480,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 11774,
+      "offset": 13513,
       "length": 9,
       "value": "\"card_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 11834,
+      "offset": 13573,
       "length": 12,
       "value": "\"show_count\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 11913,
+      "offset": 13652,
       "length": 17,
       "value": "\"first_delivered\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12083,
+      "offset": 13822,
       "length": 12,
       "value": "\"first_seen\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12223,
+      "offset": 13962,
       "length": 12,
       "value": "\"is_clicked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12364,
+      "offset": 14103,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12408,
+      "offset": 14147,
       "length": 14,
       "value": "\"query_params\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12618,
+      "offset": 14357,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12726,
+      "offset": 14465,
       "length": 32,
       "value": "\"Cards Delete Request - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 12767,
+      "offset": 14506,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13031,
+      "offset": 14770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 13144,
+      "offset": 14883,
       "length": 28,
       "value": "\"Cards Delete request made:\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 13181,
+      "offset": 14920,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 13718,
+      "offset": 15457,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 14113,
+      "offset": 15852,
       "length": 10,
       "value": "\"card_ids\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 14155,
+      "offset": 15894,
       "length": 12,
       "value": "\"unique_ids\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 14341,
+      "offset": 16080,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 14417,
+      "offset": 16156,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 14466,
+      "offset": 16205,
       "length": 14,
       "value": "\"query_params\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15001,
+      "offset": 16740,
       "length": 8,
       "value": "\"cardID\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15050,
+      "offset": 16789,
       "length": 20,
       "value": "\"firstDeliveredTime\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15123,
+      "offset": 16862,
       "length": 15,
       "value": "\"firstSeenTime\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15186,
+      "offset": 16925,
       "length": 16,
       "value": "\"showCountTotal\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15251,
+      "offset": 16990,
       "length": 24,
       "value": "\"showCountCurrentDevice\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15332,
+      "offset": 17071,
       "length": 11,
       "value": "\"isNewCard\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15387,
+      "offset": 17126,
       "length": 8,
       "value": "\"isSeen\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15436,
+      "offset": 17175,
       "length": 11,
       "value": "\"isClicked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15491,
+      "offset": 17230,
       "length": 11,
       "value": "\"isDeleted\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 15546,
+      "offset": 17285,
       "length": 12,
       "value": "\"deleteTime\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 16022,
+      "offset": 17761,
       "length": 17,
       "value": "\"Cards - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 16048,
+      "offset": 17787,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 16221,
+      "offset": 17960,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 16836,
+      "offset": 18575,
       "length": 17,
       "value": "\"Cards - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 16862,
+      "offset": 18601,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 17025,
+      "offset": 18764,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 17603,
+      "offset": 19342,
       "length": 17,
       "value": "\"Cards - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 17629,
+      "offset": 19368,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "Array",
-      "offset": 18461,
+      "offset": 20200,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 18816,
+      "offset": 20555,
       "length": 17,
       "value": "\"Cards - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 18842,
+      "offset": 20581,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 21632,
+      "offset": 23591,
       "length": 17,
       "value": "\"Cards - Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 21658,
+      "offset": 23617,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21721,
+      "offset": 23680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22176,
+      "offset": 24135,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 23759,
+      "offset": 25718,
       "length": 33,
       "value": "\"Cards Request - Account Blocked\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 23801,
+      "offset": 25760,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23859,
+      "offset": 25818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 24014,
+      "offset": 25973,
       "length": 30,
       "value": "\"Cards Request - SDK Disabled\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 24053,
+      "offset": 26012,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24111,
+      "offset": 26070,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 24254,
+      "offset": 26213,
       "length": 37,
       "value": "\"Cards Request - User not Registered\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "StringLiteral",
-      "offset": 24300,
+      "offset": 26259,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24359,
+      "offset": 26318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/MoEngageCardsController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24399,
+      "offset": 26358,
       "length": 4,
       "value": "true"
     },
@@ -18127,658 +19403,658 @@
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3223,
+      "offset": 3253,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4080,
+      "offset": 4136,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4124,
+      "offset": 4180,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4187,
+      "offset": 4243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4238,
+      "offset": 4294,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4250,
+      "offset": 4306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4277,
+      "offset": 4333,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4305,
+      "offset": 4361,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5680,
+      "offset": 5736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5795,
+      "offset": 5851,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5802,
+      "offset": 5858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5865,
+      "offset": 5921,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
-      "offset": 5926,
+      "offset": 5982,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5989,
+      "offset": 6045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
-      "offset": 6041,
+      "offset": 6097,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6125,
+      "offset": 6181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6615,
+      "offset": 6671,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6670,
+      "offset": 6726,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6714,
+      "offset": 6770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
-      "offset": 6971,
+      "offset": 7027,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Array",
-      "offset": 7128,
+      "offset": 7184,
       "length": 5,
       "value": "[0, 1]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7396,
+      "offset": 7452,
       "length": 5,
       "value": "\"All\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7407,
+      "offset": 7463,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7604,
+      "offset": 7660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7707,
+      "offset": 7763,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7759,
+      "offset": 7815,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7816,
+      "offset": 7872,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7879,
+      "offset": 7935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7952,
+      "offset": 8008,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8016,
+      "offset": 8072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8070,
+      "offset": 8126,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8272,
+      "offset": 8328,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8345,
+      "offset": 8401,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8482,
+      "offset": 8538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9576,
+      "offset": 9632,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9712,
+      "offset": 9768,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9721,
+      "offset": 9777,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9732,
+      "offset": 9788,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9742,
+      "offset": 9798,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "Dictionary",
-      "offset": 10173,
+      "offset": 10229,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 12776,
+      "offset": 12832,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13445,
+      "offset": 13501,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13564,
+      "offset": 13620,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 13989,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 14002,
-      "length": 3,
-      "value": "1.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
       "offset": 14045,
       "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14058,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 14101,
+      "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14086,
+      "offset": 14142,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14165,
+      "offset": 14221,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15167,
+      "offset": 15223,
       "length": 23,
       "value": "\"Delete Action pressed\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15303,
+      "offset": 15359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 15325,
+      "offset": 15381,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17065,
+      "offset": 17121,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17099,
+      "offset": 17155,
       "length": 23,
       "value": "\"option menu presented\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17387,
+      "offset": 17443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17449,
+      "offset": 17505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17663,
+      "offset": 17719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17896,
+      "offset": 17952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18423,
+      "offset": 18479,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18949,
+      "offset": 19005,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19073,
+      "offset": 19129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19302,
+      "offset": 19358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 20016,
+      "offset": 20072,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21342,
+      "offset": 21398,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21474,
+      "offset": 21530,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21606,
+      "offset": 21662,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21715,
+      "offset": 21771,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21750,
+      "offset": 21806,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22036,
+      "offset": 22092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22062,
+      "offset": 22118,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22342,
+      "offset": 22398,
       "length": 5,
       "value": "350.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22403,
+      "offset": 22459,
       "length": 5,
       "value": "180.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 22513,
+      "offset": 22569,
       "length": 5,
       "value": "170.0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22794,
+      "offset": 22850,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23229,
+      "offset": 23285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23654,
+      "offset": 23710,
       "length": 18,
       "value": "\"illustrationCell\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23734,
+      "offset": 23790,
       "length": 27,
       "value": "\"illustrationCellLandscape\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23924,
+      "offset": 23980,
       "length": 11,
       "value": "\"basicCell\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23997,
+      "offset": 24053,
       "length": 20,
       "value": "\"basicCellLandscape\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24261,
+      "offset": 24317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24327,
+      "offset": 24383,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24973,
+      "offset": 25029,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25206,
+      "offset": 25262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25409,
+      "offset": 25465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26664,
+      "offset": 26720,
       "length": 10,
       "value": "\"navigate\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26816,
+      "offset": 26872,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27008,
+      "offset": 27064,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27280,
+      "offset": 27336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27488,
+      "offset": 27544,
       "length": 49,
       "value": "\"Screen Name Action - Delegate method attempted!\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27546,
+      "offset": 27602,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27671,
+      "offset": 27727,
       "length": 21,
       "value": "\"Unknown Action Type\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27701,
+      "offset": 27757,
       "length": 7,
       "value": "\"CARDS\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28328,
+      "offset": 28384,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28377,
+      "offset": 28433,
       "length": 11,
       "value": "\"tintColor\""
     },
     {
       "filePath": "\/Users\/babul.raj@moengage.com\/MoenWorkSpace\/MoEFramework\/MoEngage\/MoEngageCards\/UIComponents\/MoEngageCardsListViewController.swift",
       "kind": "StringLiteral",
-      "offset": 28421,
+      "offset": 28477,
       "length": 12,
       "value": "\"titleColor\""
     },

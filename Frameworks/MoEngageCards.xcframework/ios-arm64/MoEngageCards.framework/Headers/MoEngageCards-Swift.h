@@ -395,6 +395,20 @@ SWIFT_CLASS("_TtC13MoEngageCards17MoEngageCardStyle")
 @end
 
 
+/// A type representing result after sync is complete
+/// with pull to refresh/inbox load/app open interval.
+SWIFT_CLASS("_TtC13MoEngageCards28MoEngageCardSyncCompleteData")
+@interface MoEngageCardSyncCompleteData : NSObject
+/// Account metadata associated with app identifier
+/// provided during sync invocation
+@property (nonatomic, readonly, strong) MoEngageAccountMeta * _Nonnull accountMeta;
+/// Whether there are any updates after sync complete
+@property (nonatomic, readonly) BOOL hasUpdates;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC13MoEngageCards24MoEngageCardTemplateData")
 @interface MoEngageCardTemplateData : NSObject <NSCoding>
 @property (nonatomic, readonly, copy) NSString * _Nonnull typeString;
@@ -511,6 +525,24 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 /// \param completionBlock completion block to be called after sync is performed
 ///
 - (void)syncCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(BOOL))completionBlock;
+/// Method to sync the cards with app open interval
+/// \param appID account identifier
+///
+/// \param completionBlock completion block to be called after sync is performed
+///
+- (void)onAppOpenSyncForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(MoEngageCardSyncCompleteData * _Nullable))completionBlock;
+/// Method to track inbox click and sync the cards with inbox load interval
+/// \param appID account identifier
+///
+/// \param completionBlock completion block to be called after sync is performed
+///
+- (void)onCardSectionLoadedForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(MoEngageCardSyncCompleteData * _Nullable))completionBlock;
+/// Method to sync the cards with pull to refresh interval
+/// \param appID account identifier
+///
+/// \param completionBlock completion block to be called after sync is performed
+///
+- (void)refreshCardsForAppID:(NSString * _Nullable)appID withCompletion:(void (^ _Nullable)(MoEngageCardSyncCompleteData * _Nullable))completionBlock;
 /// Method to fetch the latest cards after refreshing data with inbox sync interval.
 /// \param appID account identifier
 ///
@@ -568,6 +600,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 /// \param appID account identifier.
 ///
 - (void)cardDelivered:(MoEngageCardCampaign * _Nonnull)card forAppID:(NSString * _Nullable)appID;
+/// Method to mark tracking delivery of all cards to inbox.
+/// \param appID account identifier.
+///
+- (void)cardDeliveredForAppID:(NSString * _Nullable)appID;
 /// Method to delete the cards
 /// \param cardsArr array of MoEngageCardCampaign
 ///
