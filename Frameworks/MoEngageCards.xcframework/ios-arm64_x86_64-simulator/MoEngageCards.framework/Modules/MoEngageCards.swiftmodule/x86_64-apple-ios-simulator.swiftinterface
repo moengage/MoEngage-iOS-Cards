@@ -38,6 +38,12 @@ import _StringProcessing
   @objc public var expiryDate: Foundation.Date? {
     get
   }
+  public var expiryAfterSeenDuration: Swift.Double? {
+    get
+  }
+  public var expiryAfterDeliveredDuration: Swift.Double? {
+    get
+  }
   @objc public var showTime: MoEngageCards.MoEngageCardShowTime? {
     get
   }
@@ -54,6 +60,11 @@ import _StringProcessing
   }
   @objc public func encode(with aCoder: Foundation.NSCoder)
   @objc required public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers public class MoEngageCardSyncCompleteData : ObjectiveC.NSObject {
+  @objc final public let accountMeta: MoEngageCore.MoEngageAccountMeta
+  @objc final public let hasUpdates: Swift.Bool
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MoEngageCardsDelegateHandler : MoEngageCore.MoEngageCardsHandler {
@@ -237,6 +248,9 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc public static let sharedInstance: MoEngageCards.MoEngageSDKCards
   @objc public func setCardsDelegate(delegate: any MoEngageCards.MoEngageCardsDelegate, forAppID appID: Swift.String? = nil)
   @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> ())? = nil)
+  @objc public func onAppOpenSync(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
+  @objc public func onCardSectionLoaded(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
+  @objc public func refreshCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
   @objc public func fetchCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardData?) -> Swift.Void)? = nil)
   public func getAllCardStatusDict(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (([[Swift.String : Any]]) -> Swift.Void))
   @objc public func getCardsData(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cardsData: MoEngageCards.MoEngageCardsData?, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
@@ -247,6 +261,7 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc public func cardClicked(_ card: MoEngageCards.MoEngageCardCampaign, forAppID appID: Swift.String? = nil)
   @objc public func cardClicked(_ card: MoEngageCards.MoEngageCardCampaign, withWidgetID widgetID: Swift.Int, forAppID appID: Swift.String? = nil)
   @objc public func cardDelivered(_ card: MoEngageCards.MoEngageCardCampaign, forAppID appID: Swift.String? = nil)
+  @objc public func cardDelivered(forAppID appID: Swift.String? = nil)
   @objc public func deleteCards(_ cardsArr: [MoEngageCards.MoEngageCardCampaign], forAppID appID: Swift.String? = nil, andCompletionBlock completionBlock: @escaping ((_ isDeleted: Swift.Bool, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> ()))
   @objc public func cardsViewControllerLoaded(forAppID appID: Swift.String? = nil)
   @objc public func cardsViewControllerDismissed(forAppID appID: Swift.String? = nil)
@@ -314,6 +329,24 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc override dynamic public init()
   @objc deinit
 }
+public enum MoEngageHybridSDKCards {
+  public static var hybridCardsDelegate: (any MoEngageCards.MoEngageHybridSDKCardsDelegate)?
+  public static func buildCardCampaign(fromHybridData data: [Swift.String : Any]) throws -> MoEngageCards.MoEngageCardCampaign
+  public static func convertCardCampaignToJsonData(_ cardCampaign: MoEngageCards.MoEngageCardCampaign) -> [Swift.String : Any]
+}
+public enum MoEngageHybridCardsSyncType {
+  case appOpen
+  case inboxLoad
+  case pullToRefresh
+  public static func == (a: MoEngageCards.MoEngageHybridCardsSyncType, b: MoEngageCards.MoEngageHybridCardsSyncType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol MoEngageHybridSDKCardsDelegate {
+  func didSyncCards(forEvent event: MoEngageCards.MoEngageHybridCardsSyncType, recievedUpdate data: MoEngageCards.MoEngageCardSyncCompleteData)
+}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MoEngageCardsData : ObjectiveC.NSObject, Foundation.NSCoding {
   @objc public var showAllTab: Swift.Bool {
     get
@@ -359,3 +392,5 @@ extension MoEngageCards.MoEngageCardActionType : Swift.RawRepresentable {}
 extension MoEngageCards.MoEngageCardWidgetType : Swift.Equatable {}
 extension MoEngageCards.MoEngageCardWidgetType : Swift.Hashable {}
 extension MoEngageCards.MoEngageCardWidgetType : Swift.RawRepresentable {}
+extension MoEngageCards.MoEngageHybridCardsSyncType : Swift.Equatable {}
+extension MoEngageCards.MoEngageHybridCardsSyncType : Swift.Hashable {}
