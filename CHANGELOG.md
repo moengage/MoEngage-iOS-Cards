@@ -3,6 +3,11 @@
 
 ## Change Log:
 
+### Version 4.11.0 *(30th August 2023)*
+-------------------------------------------
+* BugFix - `getCardsForCategory` API returns all cards if category is All.
+* Updated the dependency to MoEngage-iOS-SDK 9.11.0.
+
 ### Version 4.10.0 *(18th July 2023)*
 -------------------------------------------
 * Added Cards sync API and Cards delivered API.
