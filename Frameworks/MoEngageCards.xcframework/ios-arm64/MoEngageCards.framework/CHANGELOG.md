@@ -3,6 +3,13 @@
 
 ## Change Log:
 
+### Version 4.11.1 *(26th September 2023)*
+-------------------------------------------
+* BugFix - Fixed `setImage` and `setGIF*` extension methods name collision.
+* BugFix - Fixed invalid gif data not falling back to static image.
+* BugFix - Fixed text styles getting duplicated in Card UI.
+* Updated the dependency to MoEngage-iOS-SDK 9.12.0.
+
 ### Version 4.11.0 *(30th August 2023)*
 -------------------------------------------
 * BugFix - `getCardsForCategory` API returns all cards if category is All.
