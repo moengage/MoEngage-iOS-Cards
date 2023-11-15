@@ -3,6 +3,11 @@
 
 ## Change Log:
 
+### Version 4.12.0 *(15th November 2023)*
+-------------------------------------------
+* Added self-handled cards for tvOS.
+* BugFix - Refactored public APIs that can cause name collision.
+
 ### Version 4.11.1 *(26th September 2023)*
 -------------------------------------------
 * BugFix - Fixed `setImage` and `setGIF*` extension methods name collision.

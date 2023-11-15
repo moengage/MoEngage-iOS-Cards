@@ -526,7 +526,7 @@ SWIFT_PROTOCOL("_TtP13MoEngageCards21MoEngageCardsDelegate_")
 @class NSBundle;
 
 /// :nodoc:
-SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController")
+SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController") SWIFT_AVAILABILITY(tvos,unavailable)
 @interface MoEngageCardsListViewController : UIViewController <UIGestureRecognizerDelegate>
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
@@ -544,6 +544,7 @@ SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController")
 @class NSIndexPath;
 @class UITableViewCell;
 
+SWIFT_AVAILABILITY(tvos,unavailable)
 @interface MoEngageCardsListViewController (SWIFT_EXTENSION(MoEngageCards)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -558,21 +559,21 @@ SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController")
 
 
 /// Customization on navigationbar
-SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsNavigationBarStyle")
+SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsNavigationBarStyle") SWIFT_AVAILABILITY(tvos,unavailable)
 @interface MoEngageCardsNavigationBarStyle : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// Class responsible for customizing the Cards UI.
-SWIFT_CLASS("_TtC13MoEngageCards28MoEngageCardsUIConfiguration")
+SWIFT_CLASS("_TtC13MoEngageCards28MoEngageCardsUIConfiguration") SWIFT_AVAILABILITY(tvos,unavailable)
 @interface MoEngageCardsUIConfiguration : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// An interface for receiving callback on performing UI actions on <code>MoEngageCardsListViewController</code>.
-SWIFT_PROTOCOL("_TtP13MoEngageCards35MoEngageCardsViewControllerDelegate_")
+SWIFT_PROTOCOL("_TtP13MoEngageCards35MoEngageCardsViewControllerDelegate_") SWIFT_AVAILABILITY(tvos,unavailable)
 @protocol MoEngageCardsViewControllerDelegate
 @optional
 /// Callback received when <code>MoEngageCardsListViewController</code> is dismissed from presented
@@ -740,7 +741,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 ///
 /// \param appID MoEngage Account Identifier
 ///
-- (void)presentCardsViewControllerWithUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+- (void)presentCardsViewControllerWithUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID SWIFT_AVAILABILITY(tvos,unavailable);
 /// Push the CardsViewController
 /// \param navController UINavigationController instance
 ///
@@ -750,7 +751,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 ///
 /// \param appID MoEngage Account Identifier
 ///
-- (void)pushCardsViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+- (void)pushCardsViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID SWIFT_AVAILABILITY(tvos,unavailable);
 /// Method to return the CardsViewController
 /// \param config Cards custom UI configuration
 ///
@@ -761,7 +762,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKC
 ///
 /// returns:
 /// <code>MoEngageCardsListViewController</code>
-- (void)getCardsViewControllerWithUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageCardsListViewController * _Nullable))completionBlock;
+- (void)getCardsViewControllerWithUIConfiguration:(MoEngageCardsUIConfiguration * _Nullable)config withCardsViewControllerDelegate:(id <MoEngageCardsViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageCardsListViewController * _Nullable))completionBlock SWIFT_AVAILABILITY(tvos,unavailable);
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
