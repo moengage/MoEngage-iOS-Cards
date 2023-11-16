@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 4.12.1 *(16th November 2023)*
+-------------------------------------------
+* Added self-handled cards for tvOS.
+
 ### Version 4.12.0 *(15th November 2023)*
 -------------------------------------------
 * Added self-handled cards for tvOS.
