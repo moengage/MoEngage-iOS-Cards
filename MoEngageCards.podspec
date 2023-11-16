@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Commercial', :file => 'LICENSE' }
   s.author       = { 'MobileDev' => 'mobiledevs@moengage.com' }
   s.social_media_url   = 'https://twitter.com/moengage'
-  s.platform     = :ios
   s.ios.deployment_target = '11.0'
+  s.tvos.deployment_target = '11.0'
 
   s.source       = { 
                     :git => 'https://github.com/moengage/MoEngage-iOS-Cards.git', 
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
                     }
                     
   s.ios.vendored_frameworks = 'Frameworks/MoEngageCards.xcframework'
+  s.tvos.vendored_frameworks = 'Frameworks/MoEngageCards.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'ImageIO'
   s.dependency 'MoEngage-iOS-SDK', '>= 9.13.0', '< 9.14.0'
