@@ -3,6 +3,12 @@
 
 ## Change Log:
 
+### Version 4.14.0 *(23rd January 2024)*
+-------------------------------------------
+* Added privacy manifest file
+* Added Code signature support for XCFrameworks.
+* BugFix: Fixed memory leak with Cards screen.
+
 ### Version 4.13.0 *(30th November 2023)*
 -------------------------------------------
 * Updated hashing algorithm usages to SHA256.
