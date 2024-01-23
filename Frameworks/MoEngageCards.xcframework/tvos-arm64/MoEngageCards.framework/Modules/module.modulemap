@@ -1,7 +1,7 @@
 framework module MoEngageCards {
   umbrella header "MoEngageCards.h"
-
   export *
+
   module * { export * }
 }
 
