@@ -71,7 +71,7 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MoEngageCardsDelegateHandler : MoEngageCore.MoEngageCardsHandler {
-  override public func logout(onUserReset: Swift.Bool = true, sdkInstance: MoEngageCore.MoEngageSDKInstance, onCompleted: @escaping () -> ())
+  override public func logout(onUserReset: Swift.Bool = true, sdkInstance: MoEngageCore.MoEngageSDKInstance, onCompleted: @escaping () -> Swift.Void)
   override public func updateModule(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func initializeCards(sdkInstance: MoEngageCore.MoEngageSDKInstance)
   override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.MoEngageSDKInstance)
@@ -251,14 +251,14 @@ public enum MoEngageCardWidgetType : Swift.String {
 @_inheritsConvenienceInitializers @objc public class MoEngageSDKCards : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageCards.MoEngageSDKCards
   @objc public func setCardsDelegate(delegate: any MoEngageCards.MoEngageCardsDelegate, forAppID appID: Swift.String? = nil)
-  @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> ())? = nil)
+  @objc public func syncCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ success: Swift.Bool) -> Swift.Void)? = nil)
   @objc public func onAppOpenSync(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
   @objc public func onCardSectionLoaded(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
   @objc public func refreshCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardSyncCompleteData?) -> Swift.Void)? = nil)
   @objc public func fetchCards(forAppID appID: Swift.String? = nil, withCompletion completionBlock: ((_ data: MoEngageCards.MoEngageCardData?) -> Swift.Void)? = nil)
   public func getAllCardStatusDict(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (([[Swift.String : Any]]) -> Swift.Void))
   @objc public func getCardsData(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cardsData: MoEngageCards.MoEngageCardsData?, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
-  @objc public func getCardsCategories(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ categories: Swift.Array<Swift.String>, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> ()))
+  @objc public func getCardsCategories(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ categories: Swift.Array<Swift.String>, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getCards(forCategory category: Swift.String, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ cards: Swift.Array<MoEngageCards.MoEngageCardCampaign>, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func isAllCategoryEnabled(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Bool) -> Swift.Void))
   @objc public func cardShown(_ card: MoEngageCards.MoEngageCardCampaign, forAppID appID: Swift.String? = nil)
@@ -266,7 +266,7 @@ public enum MoEngageCardWidgetType : Swift.String {
   @objc public func cardClicked(_ card: MoEngageCards.MoEngageCardCampaign, withWidgetID widgetID: Swift.Int, forAppID appID: Swift.String? = nil)
   @objc public func cardDelivered(_ card: MoEngageCards.MoEngageCardCampaign, forAppID appID: Swift.String? = nil)
   @objc public func cardDelivered(forAppID appID: Swift.String? = nil)
-  @objc public func deleteCards(_ cardsArr: [MoEngageCards.MoEngageCardCampaign], forAppID appID: Swift.String? = nil, andCompletionBlock completionBlock: @escaping ((_ isDeleted: Swift.Bool, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> ()))
+  @objc public func deleteCards(_ cardsArr: [MoEngageCards.MoEngageCardCampaign], forAppID appID: Swift.String? = nil, andCompletionBlock completionBlock: @escaping ((_ isDeleted: Swift.Bool, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func cardsViewControllerLoaded(forAppID appID: Swift.String? = nil)
   @objc public func cardsViewControllerDismissed(forAppID appID: Swift.String? = nil)
   @objc public func getNewCardsCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((_ count: Swift.Int, _ accountMeta: MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
@@ -376,7 +376,6 @@ public protocol MoEngageHybridSDKCardsDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func willTransition(to newCollection: UIKit.UITraitCollection, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)

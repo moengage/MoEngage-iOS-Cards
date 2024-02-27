@@ -3,6 +3,12 @@
 
 ## Change Log:
 
+### Version 4.15.0 *(27th February 2024)*
+-------------------------------------------
+* Refactored network layer.
+* Refactored data tracking.
+* Refactored logging.
+
 ### Version 4.14.1 *(9th February 2024)*
 -------------------------------------------
 * BugFix - Fixed cards page leaking.

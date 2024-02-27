@@ -539,7 +539,6 @@ SWIFT_PROTOCOL("_TtP13MoEngageCards21MoEngageCardsDelegate_")
 @end
 
 @class UITraitCollection;
-@protocol UIViewControllerTransitionCoordinator;
 @class NSBundle;
 
 /// :nodoc:
@@ -548,7 +547,6 @@ SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController") SWIFT_AVAILA
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
-- (void)willTransitionToTraitCollection:(UITraitCollection * _Nonnull)newCollection withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -1335,7 +1333,6 @@ SWIFT_PROTOCOL("_TtP13MoEngageCards21MoEngageCardsDelegate_")
 @end
 
 @class UITraitCollection;
-@protocol UIViewControllerTransitionCoordinator;
 @class NSBundle;
 
 /// :nodoc:
@@ -1344,7 +1341,6 @@ SWIFT_CLASS("_TtC13MoEngageCards31MoEngageCardsListViewController") SWIFT_AVAILA
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
-- (void)willTransitionToTraitCollection:(UITraitCollection * _Nonnull)newCollection withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
