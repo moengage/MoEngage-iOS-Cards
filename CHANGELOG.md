@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 4.15.1 *(18th March 2024)*
+-------------------------------------------
+* Added tvOS platform identifier changes
+
 ### Version 4.15.0 *(27th February 2024)*
 -------------------------------------------
 * Refactored network layer.
