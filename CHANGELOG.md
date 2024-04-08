@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 4.16.0 *(8th April 2024)*
+-------------------------------------------
+* Handled UserDefault storage limit
+
 ### Version 4.15.1 *(18th March 2024)*
 -------------------------------------------
 * Added tvOS platform identifier changes
