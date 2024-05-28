@@ -16,13 +16,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.tvos.deployment_target = '11.0'
 
-  s.source       = { 
-                    :git => 'https://github.com/moengage/MoEngage-iOS-Cards.git', 
-                    :tag => 'cards-' + s.version.to_s 
-                    }
+  s.source       = {
+    :http => "https://github.com/moengage/MoEngage-iOS-Cards/releases/download/#{s.version}/MoEngageCards.xcframework.zip", 
+    :sha256 => '82023c16c4a80345b098573bde9e7706d28073689f548f31c7728014b50be5bd'
+  }
                     
-  s.ios.vendored_frameworks = 'Frameworks/MoEngageCards.xcframework'
-  s.tvos.vendored_frameworks = 'Frameworks/MoEngageCards.xcframework'
+  s.vendored_frameworks = 'MoEngageCards.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'ImageIO'
   s.dependency 'MoEngage-iOS-SDK', '>= 9.17.0', '< 9.18.0'
