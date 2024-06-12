@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageCards'
-  s.version      = '4.16.0'
+  s.version      = '4.16.1'
   s.summary      = 'MoEngage Cards Campaigns for iOS'
   s.description  = <<-DESC
                    Create targeted or automated App Inbox/NewsFeed messages that can be grouped into various categories, and target your users with different updates or offers that can stay in the Inbox/Feed over a designated period of time.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = {
     :http => "https://github.com/moengage/MoEngage-iOS-Cards/releases/download/#{s.version}/MoEngageCards.xcframework.zip", 
-    :sha256 => '82023c16c4a80345b098573bde9e7706d28073689f548f31c7728014b50be5bd'
+    :sha256 => '1c51096e2e18b82115ee1ce20c71c02a50768a93af89c26fa20a62c046f4d46b'
   }
                     
   s.vendored_frameworks = 'MoEngageCards.xcframework'
