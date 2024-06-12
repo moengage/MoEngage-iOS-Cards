@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "4.16.0"
-let checksum = "82023c16c4a80345b098573bde9e7706d28073689f548f31c7728014b50be5bd"
+let version = "4.16.1"
+let checksum = "1c51096e2e18b82115ee1ce20c71c02a50768a93af89c26fa20a62c046f4d46b"
 let package = Package(
     name: "MoEngageCards",
     platforms: [.iOS(.v11), .tvOS(.v11)],
